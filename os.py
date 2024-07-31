@@ -1,5 +1,5 @@
 import os
-# newco
+# newerco
 unos=os.uname()
 ost=os.times()
 print('type(unos.uname()) '+str(type(os.uname())))
