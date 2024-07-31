@@ -1,0 +1,31 @@
+    1: import time
+    2: class Hh:
+    1:     '''Simple Base and Subclass example showing __new__/__init__ sequence.'''
+    1:     last_hstamp=time.time()
+    1:     def __new__(cls):
+               print(f'{id(self)}{self} Hh.new: ')
+               Hh.nowd()
+               #self.summem='sumin' not working...or adds class mem instead
+               return 
+    1:     def __init__(self):
+               Hh.nowd()
+               self.summem='sumin'
+               print(f'{id(self)}{self} Hh.inniyit: ')
+    1:     def supmeth(self):
+               return 'supmeth'
+    1:     @staticmethod
+    1:     def nowd():
+    1:         now=time.time()
+    1:         delta=now-Hh.last_hstamp
+    1:         Hh.last_hstamp=now
+    1:         print(delta)
+    2: class Ii(Hh):
+    1:     def __new__(self):   # self is really cls
+               print(f'{id(self)} Ii.new: ')
+               super().__new__(self)
+               Hh.nowd()
+    1:     def __init__(self):
+               print(f'{id(self)} Ii.init: ')
+               Hh.nowd()
+    1: print('tt',time.time())
+    1: Hh.nowd()

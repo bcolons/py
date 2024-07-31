@@ -1,0 +1,23 @@
+a=A() # calls: a =a.__new__(cls) (or __new__(type(A)); then: a.__init__(really: a =  __init__(a) ) 
+
+@property # changes a func name into something which quacks like a member and may define @*.setter and @*.deleter
+def x(self):
+    return self._x #call as a.x as the decorator overrides/defines __get__(self) ???
+
+@x.setter
+def mysetx(self,val):
+    self._x=val  
+
+@x.deleter
+def mydelx(self)
+    del self._x
+
+#above decorator equiv to, 
+x = property( x, mysetx, mydelx, 'im the "x" property") # in the abesenc of decorations: @property/setter/deleter, resp.
+
+Descriptor: any object with __get__, __set__ or __delete__ overidden (1. directly, 2. via property(..) or 3. by decorators, above)
+a.x becomes x.__get__(a) (really __get__(x,a)
+
+if bound to instance....
+a.x also becomes type(a).__dict__['x'].__get__(a, type(a))
+

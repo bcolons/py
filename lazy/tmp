@@ -1,0 +1,4 @@
+
+    def dump_json_word_list(s,word_list_file):
+        with open(word_list_file,'w') as fs:
+            json.dump(s.somedict,fs,indent=92)

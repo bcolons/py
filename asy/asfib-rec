@@ -1,0 +1,28 @@
+import asyncio as asy
+import time as t
+async def fib_rec(num):
+    if(num!=0 and num !=-1):
+        await asy.sleep(0)
+        t.sleep(1)
+        print('new: '+new+'=fib_rec('+num+'-1)+fib_rec('+num+'-2)')
+        new=fib_rec(num-1) +fib_rec(num-2)
+        return new 
+    else:
+        return 1
+
+async def main():
+    loop= asy.get_running_loop()
+    loop.create_task(fib_rec(9))
+
+asy.run(main())
+
+# 1,1,2,3,5,8,13
+
+#fib(1)==1
+#fib(2)==1+1
+#fib(1)==1
+#fib(1)==1
+#fib(1)==1
+#fib(1)==1
+#fib(1)==1
+

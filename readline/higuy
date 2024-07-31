@@ -1,0 +1,3648 @@
+quit
+quit()
+import socket
+dir(socket.send)
+help(socket.send)
+dir
+dir(socket)
+dir(accept)
+dir(_socket)
+help(connect)
+help(_socket)
+help(create_connection)
+dir(socket.create_connections)
+dir(socket.create_connection)
+dir(socket.connect)
+help(time)
+help(timer)
+help(time.Timer)
+import time
+help(Time)
+help(time)
+help(time.time)
+exit
+quit()
+q
+quit()
+help(sys.path)
+sys.path
+import sys
+sys.path
+import http.server
+http.server.__main__()
+http.server
+http.server()
+http.server.__init__()
+http.server.__init__('localhost','8080')
+quit()
+help(os.system)
+import os
+help(os.system)
+print(os.system(ls))
+print(os.system('ls'))
+out=os.system(ls)
+out=os.system('ls')
+print(out)
+from subprocess import Poen PIPE
+from subprocess import Popen PIPE
+from subprocess import Popen, PIPE
+p =Popen(['ls',' -ltr'], stdout=PIPE, stderr=PIPE,stdin=PIPE)
+output =p.stdout.read()
+p.stdin.write(input)
+print(output)
+help(subprocess.PIPE)
+import subprocess
+help(subprocess.PIPE)
+help(subprocess)
+quit()
+import sys
+sys.stdout.write("asdfljahs\n")
+quit()
+dir(sys.modules)
+import sys
+dir(sys.modules)
+fg
+quit()
+help(json)
+import json
+help(json)
+quit()
+help(type)
+class B():
+	pass
+b=B()
+type(b)
+str(b)
+b.bb=9
+str(b)
+	json.JSONDecoder(b)
+json.JSONDecoder(b)
+import json
+json.JSONDecoder(b)
+json.JSONEncoder(b)
+json.JSONEncoder().b
+b.json.JSONEncoder()
+json.JSONEncoder()
+json.JSONEncoder("higuy")
+je=json.JSONEncoder()
+je.encode(d)
+je.encode(b)
+je.encode({"a":"apple","b":"bug"})
+jee=je.encode({"a":"apple","b":"bug"})
+jd=json.JSONDecoder()
+jd.decode(jee)
+quit*(
+quit()
+help(print)
+quit()
+print('alkdjlfajs'/2)
+print('alkdjlfajs'*2)
+quit()
+fg
+quit()
+fg
+quit()
+a ="b","c"
+d = a,a
+e =iter(d)
+f=next(e)
+f
+g=next(f)
+g=next(iter(f))
+g
+type(g)
+type(f)
+type(e)
+la =["a","b"]
+ld =[a,a]
+e=iter(d)
+e
+le=iter(ld)
+le
+lf=next(le)
+lf
+lg=next(lf)
+ld =[la,la]
+le=iter(ld)
+le
+lf=next(le)
+lf
+lg=next(lf)
+quit()
+help(re)
+import re
+help(re)
+print(2+'adsf')
+type(('a','b',('c','d')))
+type(iter(('a','b',('c','d'))))
+help re.match
+help(re.match)
+help(re.pattern)
+help(pattern)
+help(re.compile)
+help(re.match)
+re.compile('h')
+r=re.compile('h')
+match(r,'hijk')
+re.match(r,'hijk')
+r.match(r,'hijk')
+quit()
+a={1:34,2:45}
+type(a)
+type(iter(a))
+quit()
+import re
+r=re.compile(it|di)
+r=re.compile('it|di')
+print(None=r.match('we')
+print(None=r.match('we'))
+print(None==r.match('we'))
+print(None==r.match('di'))
+print(None!=r.match('di'))
+print(None!=r.match('we'))
+print(None!=r.match('dict'))
+print(None!=r.match('dect'))
+help(iterable)
+print(iter("a"))
+print(type(iter("a")))
+print(type(iter(1)))
+type('asdf')
+help(str)
+help(type)
+Py_TYPE(r)
+import type
+import class
+Py_TYPE(r) 
+type(type('s'))
+quit()
+help(array)
+help(list)
+l=['a','b','c']
+l.contains('c')
+l.__contains__('c')
+l.__contains__('d')
+l.__index__('c')
+l.index('c')
+l.index('d')
+quit()
+iter("")
+iter("").next()
+next(iter(""))
+quit()
+a ="a"
+a.append("b")
+a =[]
+a ="a"
+a.append("b")
+a =[]
+a.append("b")
+a.append("c")
+a ={}
+a.append("c")
+a=set()
+a.append("c")
+a =[]
+b = []
+a.append("a")
+a.append(b)
+a.append("c",b)
+print a
+print(a)
+quit()
+a=[]
+b=['1','2']
+a.append(b)
+print(a)
+print(" "+b)
+print(" "+a)
+c=['w']
+print(" "+c)
+print(" "+str(c))
+quit()
+a=[]
+b=['c',[a]]
+b
+b.append(['p
+])
+b.append(['p'])
+b
+d=iter(b)
+next(d)
+e=iter(next(d))
+next(next(e))
+next(iter(next(e)))
+b.append('f')
+next(b)
+next(iter(b))
+ib=iter(b)
+next(ib)
+next(iter(ib))
+quit()
+a=[b,c,d]
+a=['b','c','d']
+ia=iter(a)
+iter(next(ia))
+a=[1,2,3,4]
+iter(next(ia))
+ia=iter(a)
+iter(next(ia))
+quit()
+next(iter(1))
+next(iter('a'))
+quit()
+a=[1,2,3]
+b=[4,5,6]
+c=[b,[7,8,9]
+]
+a.append(c)
+a
+quit()
+a=[] 
+a+='r'
+a+='at'
+a
+a =""
+a+='r'
+a+='at'
+a
+quit()
+a ='a'
+c = 'c'
+arr = []
+c.append(a)
+arr.append(a)
+bc ='bc'
+arr.append(bc)
+arr
+quit()
+l = ['a','z','t','b']
+sort(l)
+l.sort()
+l
+help(sort
+)
+help(sort)
+help(list)
+l.sort(revers=True)
+l.sort(reverse=True)
+l
+l.sort(key=range(5))
+l.sort(key=lambda x: x+1)
+l.sort(key=lambda x: x+1))
+l.sort(key=(lambda x: x+1))
+help(lambda)
+dir(lambda)
+l.sort(key=lambda( x: x+1))
+l.sort(key=lambda(x): x+1))
+def comparator(a,b):
+	return a<b
+l.sort(key=comparator)
+quit()
+a ='abc'
+a[0]
+quit()
+help(list)
+quit()
+n=iter([])
+next(n)
+quit()
+print(['a','b',['c',['d','e']]])
+quit
+string='string'
+i=iter(string)
+next(i)
+quit
+quit()
+a =[1,2,3]
+a.index(3)
+a.__contains__(3)
+quit()
+a='asdf'
+a.len
+a.length
+len(a)
+b=[1,12,3,4,54]
+len(b
+)
+a ='asdb'
+len(a)
+a='asdf'
+len(a[1:]
+)
+len(a[1:]
+len(a[1:])
+a =[1,2,3]
+a=a[1:]
+a
+a=a[1:]
+a
+a=a[1:]
+a
+a=a[1:]
+a
+if(a):
+print ('hey a')
+if(a):
+	print ('hey a')
+fg
+quit()
+use ChNod
+import ChNod
+help(exists)
+help(ChNod.exists)
+from ChNod import exists
+from ChNod import ChNod
+help(exists)
+help(ChNod.exists)
+help(ChNod.search)
+help(ChNod.ins)
+from ChNod import ChNod
+help(ChNod.search)
+help(ChNod)
+from ChNod import ChNod
+help(ChNod
+)
+from ChNod import ChNod
+help(ChNod
+)
+help(list)
+a=['b','c']
+a+='d'
+a
+a[-1]+='e'
+a
+a[-1]
+bytes(a)
+bytes(1)
+size(a)
+sizeof(a)
+a.bytes
+a.size
+a.tobytes
+s='s'
+s.tobytes
+m=memoryview(a)
+ar=array.array('i',[1,2,3,4])
+import stdtypes
+import array
+ar=array.array('i',[1,2,3,4])
+m=memoryview(a)
+m=memoryview(ar)
+m.tobytes
+m.tobytes()
+len(m.tobytes())
+ar=array.array('i',[1,2,3])
+len(m.tobytes())
+m=memoryview(a)
+m=memoryview(ar)
+len(m.tobytes())
+from ChNod import ChNod
+cd 
+exec cd
+exec cd syml-cUbcollins/js-ser
+exec('cd syml-cUbcollins/js-ser')
+def myfun():
+	a=4*4
+print(myfun.__dict__)
+def myfun(z):
+	a=4*4z
+	return a
+def myfun(z):
+	a=4*4z
+	a=4*z
+a=4*z
+def myfun(z):
+a=4*z
+def myfun(z):
+	a=4*z
+	return a
+print(myfun.__dict__)
+print(myfun.__func__)
+date()
+sysdate()
+datetime()
+time()
+sleep(9)
+lambda x,y: x+y
+l=lambda x,y: x+y
+l(9,8)
+l(l(2,3),l(3,4))
+__name__
+__dict__
+__main__.__dict__
+help(__main__)
+help(__name__)
+help(myfun)
+print(myfun)
+print(str(myfun))
+dir(myfun)
+myfun.__sizeof__
+myfun.__sizeof__()
+b='b'
+b.__sizeof__()
+b='bb'
+b.__sizeof__()
+from ChNod import ChNod
+c=ChNod('c')
+c.__sizeof__()
+c.__sizeof__().bytes
+c.__sizeof__().bytes()
+c.bytes()
+c.bytes
+bytes(c)
+c.__sizeof__()
+d=1.0
+d.__sizeof__()
+e=True
+e.__sizeof__()
+f='brian'
+f.__sizeof__()
+i.__sizeof__()
+__name__
+help(__name__)
+help(help)
+help(__name__)
+c.__repr__()
+help(help)
+fg
+__name__
+__name.__dict__
+__name__.__dict__
+help(__name__)
+def myfun():
+	pass
+help(__name__)
+__name__.myfun()
+object(__name__)
+__name__.object()
+help(with)
+use http.server
+import !$
+import http.server
+help(http)
+import re
+help(split)
+help(re.split)
+import filio
+help(filio)
+import filio
+help(filio)
+ import json
+help(json.dump)
+import json
+help(json.dump)
+import http
+help(http.server)
+import http.server
+help(http.server)
+import nump
+import num
+import numpy
+quit()
+(for e+1 in (1,2,3,))
+(e+2 for e in (1,2,3,))
+(e+2 for e in (1,2,3) if e%2)
+g1=(e+2 for e in (1,2,3) if e%2)
+g1.next()
+next(g1)
+g1=((e+2,e+3) for e in (1,2,3) if e%2)
+next(g1)
+tot=sum(obj.count for obj in (1,2,3,4))
+tot=sum(obj.len for obj in ("1","2","34","4"))
+tot=sum(obj.length for obj in ("1","2","34","4"))
+tot=sum(obj.size for obj in ("1","2","34","4"))
+a ="aa"
+help(String)
+help(str)
+tot=sum(obj.__sizeof__() for obj in ("1","2","34","4"))
+tot
+which pytho
+import os
+quit()
+import os
+with open('tfile','r') as f:
+	f.read()
+	out=f.read()
+with open('tfile','r') as f:
+	out=f.read()
+len(out)
+out[-1]
+out[-2]
+out[-2:]
+import os
+help(os.open)
+quit()
+import sys
+help(open)
+quit()
+import sys
+help(open)
+quit()
+import numpy
+help(numpy.itemsize)
+a = np.arange(6).reshape(2,3)
+import numpy as np
+a = np.arange(6).reshape(2,3)
+help(a)
+a ='abcdef'
+ai=iter(a)
+ait=ai.tee()
+ait=tee(ai)
+import itertools
+ait=itertools.tee(ai)
+ait1,ait2=ait
+next(ait1)
+next(ait2)
+bit1,bit2,bit2=itertools.tee(ai,3)
+next(bit1)
+bit1,bit2,bit3=itertools.tee(ai,3)
+next(bit3)
+next(bit2)
+next(bit1)
+cit1,cit2,cit3,cit4=itertools.tee(ai,4)
+next(cit1)
+next(cit2)
+next(cit4)
+next(cit3)
+help(itertools.tee)
+bit1,bit2,bit3=itertools.tee(ai,3)
+next(bit1)
+bit1,bit2,bit3=itertools.tee('qwerty',3)
+next(bit1)
+next(bit2)
+next(bit3)
+next(bit1)
+a='zyxwvut'
+ai=iter(a)
+a1,a2,a3=itertools(ai,3)
+a1,a2,a3=itertools.tee(ai,3)
+next(a1)
+b1,b2,b3,b4=itertools.tee(ai,3)
+b1,b2,b3,b4=itertools.tee(ai,4)
+next(b1)
+next(a2)
+next(a3)
+next(b4)
+next(b3)
+next(b4)
+next(b2)
+next(b1)
+import numpy as np
+import matplotlib.pyplot as plt
+def mandelbrot(h, w, maxit=20, r=2):
+    """Returns an image of the Mandelbrot fractal of size (h,w)."""
+    x = np.linspace(-2.5, 1.5, 4*h+1)
+    y = np.linspace(-1.5, 1.5, 3*w+1)
+    A, B = np.meshgrid(x, y)
+    C = A + B*1j
+    z = np.zeros_like(C)
+    divtime = maxit + np.zeros(z.shape, dtype=int)
+    for i in range(maxit):
+        z = z**2 + C
+        diverge = abs(z) > r                    # who is diverging
+        div_now = diverge & (divtime == maxit)  # who is diverging now
+        divtime[div_now] = i                    # note when
+        z[diverge] = r                          # avoid diverging too much
+    return divtime
+plt.clf()
+plt.imshow(mandelbrot(400, 400))
+import matplotlib.pyplot as plt
+help(plt.imshow)
+import matplotlib.pyplot as plt
+help(plt.clf)
+help(plt.show)
+help(plt.imshow)
+import csv
+help(csv.load)
+help(csv)
+import tkinter
+import graphics
+import tk
+from graphics import *
+import tk
+help(tk)
+import tk
+help(tk)
+import tkinter
+import tk
+help(tk)
+help(tkinter)
+import graphics
+dir(tk)
+tk.__builtins__()
+print(tk.__builtins__())
+t=tk()
+t=tk
+str(tk)
+tk.__init__()
+tk.__init__('a')
+import tkinter
+quit()
+range(9)
+print(range(9))
+next(range(9))
+for i in range(3):
+	print(i)
+a =1,2,3,4
+a.remove(3)
+b=[5,4,3,2,1]
+b.remove(2)
+b
+help(list)
+b.pop(0)
+b
+b.pop(2)
+b
+c=''
+switch c:
+	
+match c:
+match cc:
+a=[1,2,3,4]
+a.contains(3)
+help(list)
+import TrNod
+help(TrNod
+)
+import TrNod
+d=TrNod('d')
+import TrNod
+fg
+import TrNOd
+import TrNod
+d=TrNod('d')
+from TrNod import TrNod
+d=TrNod('d'
+from TrNod import *
+print(a)
+from TrNod import *
+fg
+from TrNod import *
+d=TrNod('d')
+d
+print(d)
+fg
+from TrNod import *
+d=TrNod('d')
+print(d)
+print(strb(d))
+fg
+from TrNod import *
+d.strb()
+d=TrNod('d')
+d.strb()
+from TrNod import *
+d=TrNod('d')
+d.strb([])
+d.strb()
+fg
+from TrNod import *
+d=TrNod('d')
+d.strb([])
+d.strb('')
+d.strb('a')
+d.strb('baa')
+from TrNod import *
+d=TrNod('d')
+d.strb('baa')
+d.strb([])
+d.strb('baa')
+d.strb([])
+d.strb()
+d.__dict__()
+str(d.__dict__())
+str(d.__dict__)
+d.__dict__
+__dict__
+from TrNod import *
+d=TrNod('d')
+d.strb()
+d.strb(sb=[])
+d.strb()
+c=[]
+d.strb(c)
+f=c
+f
+d.strb(f)
+d.strb(c)
+from TrNod import *
+help()
+help(TrNod)
+TrNod
+quit
+from TrNod import *
+help(TrNod)
+quit
+from TrNod import *
+help(TrNod)
+quit
+from TrNod import *
+print(str(a.search('abc$')))
+print(str(a.search('ab$')))
+print(str(a.search('a$')))
+a
+a.add('bc$')
+a.dump()
+a.add('bc$')
+a.dump()
+a=1,3,4,5,2,3,4]
+a=[1,3,4,5,2,3,4]
+a.sort()
+a
+fg
+quit
+a=a.sort()
+a =[1,5,78,9,5,3,2,4]
+b.a.copy()
+b=a.copy()
+a=a.sort()
+iter(a)
+type(a)
+type(b)
+'z'<'$'
+'A'<'$'
+'A'>'$'
+a=1,4,7,9,4,2,2]
+a=[1,4,7,9,4,2,2]
+a.__contains__(2)
+a.__indexof__(2)
+help(list)
+quit()
+a=[1,2,3,4]
+a=a[:0]
+a
+a=a[:0]
+a=[1,2,3,4]
+a=a[:1]
+a
+quit()
+a=[1,3,5,6]
+b=a.copy()
+a[2]=999
+b
+a
+a=[1,2,3,4,5]
+b=[10,20,30,a]
+c=[b.copy(),a.copy()]
+c
+a[0]=12345
+c
+quit()
+from TrNodOpt import *
+help(trNodOpt)
+help(TrNodOpt)
+help()
+help(__init__)
+TrNodOpt
+quit
+quit()
+from TrNodOpt import *
+fg
+quit()
+from TrNodOpt import *
+help(TrNodOpt)
+help()
+TrNodOPt
+TrNodOpt
+quit()
+help(list)
+a=['add','sub','mul']
+a.__contains__('add')
+a.__getitem__('add')
+help(list)
+quit()
+help
+import re-ex
+from re-ex import *
+quit
+help(regexp)
+import regexp
+help(regexp)
+exit
+a =[1,2]
+a = a[1:]
+a
+a = a[1:]
+a
+a = a[1:]
+a
+b =''
+a==b
+b==None
+a==None
+fg
+if([]):
+	print(hey)
+quit()
+import winreg
+import sys
+dir(sys)
+with open(enum.py, 'r') as f:
+	f.readlines()
+quit()
+import http.server
+quit
+import http.server
+ quit()
+quit()
+a=[1'2'3]
+b=a[:]
+a=['1','2','3]
+a=['1','2','3']
+a=[1,2,3]
+b=a[:]
+c=a
+a[2]=99
+b
+c
+a[2]=[999,888]
+c=a
+b=a[:]
+c
+b
+a[2]=[999,777]
+b
+c
+import TrNod2
+t=TrNod('')
+t=TrNod2.TrNod('')
+a[2]=t
+b=a[:]
+c=a
+a[1]=t
+a
+b
+c
+t.arr=[TrNod2.TrNod('tt')]
+a[2].arr[0].ch
+b[2].arr[0].ch
+c[2].arr[0].ch
+a=1
+iter(a)
+help(iter)
+help(next)
+class a:
+	def next(s):
+		return s
+aa=a()
+next(aa)
+class a:
+	def next(s):
+		return s
+	def __next__(s):
+		return s
+next(aa)
+aa=a()
+next(aa)
+class a:
+	def iter(s):
+		return iter([1,2])
+aa=a()
+next(aa)
+next(iter(aa))
+class a:
+	def __iter__(s):
+		return iter([1,2])
+aa=a()
+next(iter(aa))
+from TrNod2 import *
+a=TrNod2.TrNod('a')
+a=TrNod('a')
+a.arr=[TrNod('b'),TrNod('c')]
+next(a)
+next(iter(a))
+ea=enumerate(a)
+next(ea)
+def enumer(self):
+	enumerate(self)@static
+def enumer(self):
+	return enumerate(self)
+eeaa=a.enumer()
+@staticmethod
+def enumer(self):
+	return enumerate(self)
+eeaa=a.enumer()
+eeaa=enumer(a)
+@staticmethod
+def enumer():
+	return enumerate
+eeaa=enumer(a)
+def enumer():
+	return enumerate
+eeaa=enumer(a)
+def enumer(s):
+	return enumerate(s)
+eeaa=enumer(a)
+next(a)
+eeaa=enumer(iter(a))
+eeaa=enumer(a)
+eeaa=enumer(iter(a))
+next(a)
+next(eeaa)
+eeaa=iterate(a)
+help(input)
+type('')
+'' is str
+'' is a str
+'' isa str
+'' is type(str)
+type('')
+repr(type(''))
+help(builtins)
+help(type)
+help(object)
+''.__class__
+''.__class__=="<class 'str'>"
+help(__class__)
+help(''.__class__)
+help(type)
+a ='asdf'
+a.isinstance('')
+a.__isinstance__('')
+help(type)
+a.__\instancecheck__('')
+a.__instancecheck__('')
+help(type)
+type(a).__instancecheck__('')
+type(a).__instancecheck__('asdfaff')
+type(a).__instancecheck__([])
+type(a).__instancecheck__([)
+type(a).__instancecheck__(b)
+quit()
+import re
+help(re)
+fg
+import re
+help(re.match)
+help)re)
+help(re)
+import asyncio
+help(asyncio)
+import asyncio
+help(!$)
+help(asyncio)
+help(asyncio.builtins)
+help(asyncio.builtin)
+help(builtins)
+help(builtin)
+help(asyncio.time)
+help(asyncio.atime)
+help(asyncio)
+help(asyncio.get_time)
+help(asyncio.time*)
+help(iter)
+help(iterator)
+help(next)
+help(collections)
+help(collections.abc)
+help(iterable)
+help(builtins)
+import builtins
+help(builtins)
+import simGen
+import simpGen
+help(simpGen)
+fg
+import simpGen
+help(simpGen)
+a =[1,2,3]
+def retr(*a):
+	return a[0]
+retr(a)
+retr(a))
+retr((a))
+def retr1(*a):
+	return a[1]
+retr1(a)
+def retr1_no_star(a):
+	return a[1]
+retr1_no_star(a)
+a =[1,2,3]
+print(*a)
+print(a)
+print((*a))
+print((a))
+print(lamda: (yield x) for x in range(3))
+fg
+print(lambda: (yield x) for x in range(3))
+print(*(lambda: (yield x) for x in range(3)))
+print(lambda: (yield x) for x in range(3)])
+print(lambda: [(yield x) for x in range(3)])
+print(lambda: [yield x for x in range(3)])
+print(lambda: [ x for x in range(3)])
+print((lambda: x for x in range(3))()])
+print((lambda: x for x in range(3))())
+print((lambda: x )(3))
+print((lambda: x )())
+print((lambda x : 1 )())
+print((lambda x : 1 )(2))
+print((lambda x : x )(2))
+print((lambda x : x )(3))
+print((lambda x : x +3)(3))
+print((lambda x : (yield x +3))(3))
+print( [y for (lambda x : (yield x +3))(y) in range(4) )
+print( [y for (lambda x : (yield x +3))(y) in range(4) ])
+print( [y for (lambda x : x +3))(y) in range(4) ])
+print( [y for (lambda x : x +3)(y) in range(4) ])
+print( [(lambda x : x +3)(y) for y in range(4) ])
+print( [(lambda x : (yield x +3))(y) for y in range(4) ])
+print( [(lambda x : (yield x +3))(y) for y in range(2) ])
+iterator('a')
+generator('a')
+enumerator('a')
+import asyncio
+help(asyncio)
+import asyncio
+help(syncio.sleep)
+help(asyncio.sleep)
+help(asyncio.time)
+help(asyncio.get_running_loop)
+help(time)
+import sys
+help(sys.argv)
+import time
+help(time)
+import asyncio
+asyncio.time()
+help(asyncio.get_running_loop)
+asyncio.run(lambda: loop=asyncio.get_running_loop())
+asyncio.run(lambda: asyncio.get_running_loop())
+asyncio.run(await lambda: asyncio.get_running_loop())
+asyncio.run(await (lambda: asyncio.get_running_loop()))
+asyncio.run((lambda: await asyncio.get_running_loop()))
+async def w():
+	loop.get_running_loop()
+	await print(loop.time())
+asyncio.run(w())
+async def w():
+	await asyncio.get_running_loop().time()
+asyncio.run(w())
+async def w():
+	loop=asyncio.get_running_loop()
+	await asyncio.sleep(1)
+	print(loop.time())
+async def w():
+	loop=asyncio.get_running_loop()
+	await asyncio.sleep(1)
+	print(loop.time())
+asyncio.run(w())
+async def w():
+	loop=asyncio.get_running_loop()
+	print(loop.time())
+	await asyncio.sleep(1)
+	print(loop.time())
+asyncio.run(w())
+asyncio.run(w(delay))
+async def w(delay):
+	loop=asyncio.get_running_loop()
+	print(loop.time())
+	await asyncio.sleep(delay)
+	print(loop.time())
+asyncio.run(w(delay))
+asyncio.run(w(2))
+asyncio.run(w(3))
+asyncio.run(w(4))
+asyncio.run(w(.2))
+asyncio.run(w(.1))
+asyncio.run(w(.01))
+asyncio.run(w(10))
+async def w(delay):
+	while(True):
+async def w(delay):
+	loop=asyncio.get_running_loop()
+	while(True):
+		print(loop.time())
+		await asyncio.sleep(delay)
+		print(loop.time())
+asyncio.run(w(.01))
+asyncio.run(w(.1))
+asyncio.run(w(.03))
+asyncio.run(w(.02))
+async def w(delay):
+	loop=asyncio.get_running_loop()
+	deltime=0
+	deltime=loop.time()
+	while(True):
+		deltime=loop.time()-deltime
+		print(deltime)
+		await asyncio.sleep(delay)
+		deltime=loop.time()-deltime
+		print(deltime)
+asyncio.run(w(.02))
+asyncio.run(w(.001))
+asyncio.run(w(1))
+asyncio.run(w(.001))
+asyncio.run(w(.01))
+async def w(delay):
+	loop=asyncio.get_running_loop()
+	while(True):
+	deltime=loop.time()
+async def w(delay):
+	loop=asyncio.get_running_loop()
+	deltime=loop.time()
+	while(True):
+		deltime=loop.time()-deltime
+		print(deltime)
+		await asyncio.sleep(delay)
+		deltime=loop.time()-deltime-delay
+		print(deltime)
+asyncio.run(w(.01))
+asyncio.run(w(.1))
+asyncio.run(w(1))
+import hier
+hier.__doc__
+print(hier.__doc__)
+print(main.__doc__)
+print(heir.main.__doc__)
+def func():
+	'''dodo docs sut'''
+	return
+help(func)
+def func2():
+	return
+'''before func3....'
+'''before func3....'''
+def func3():
+	return
+help(func3)
+help(func2)
+help(func1)
+help(func)
+print(func.__doc__)
+import graphviz
+difr(graphviz)
+dir(graphviz)
+dir(path)
+import asdfa
+o=open('testfile','rb')
+o.read(1)
+import openfd_asy
+asy.run(main())
+asyncio.run(main())
+help(asy)
+import asyncio
+help(asyncio.create_subprocess_exec)
+import asyncio
+help(asyncio.Future)
+help(callback)
+help(asyncio.callback)
+import asyncore
+help(asyncore)
+version()
+import(asyncore)
+import asyncore
+help(asyncore)
+quit()
+help(exec)
+help(eval)
+import os
+help(os)
+import subprocess
+subprocess.run(['ls','-l','/dev/null'],capture_output=True)
+subprocess.run(['find .','-name','/dev/null'],capture_output=True)
+subprocess.run(['find','. -name','/dev/null'],capture_output=True)
+subprocess.run(['date','','/dev/null'],capture_output=True)
+subprocess.run(['date','/dev/null'],capture_output=True)
+subprocess.run(['cal','2022 12','/dev/null'],capture_output=True)
+subprocess.run(['cal','2022','/dev/null'],capture_output=True)
+subprocess.run(['cal','12 2022','/dev/null'],capture_output=True)
+subprocess.run(['cal',None,'/dev/null'],capture_output=True)
+subprocess.run(['cal','','/dev/null'],capture_output=True)
+subprocess.run(['find','. -name','/dev/null'],capture_output=True)
+subprocess.run(['find','.','/dev/null'],capture_output=True)
+subprocess.run(['find','.','fo'],capture_output=True)
+subprocess.run(['find','.','/dev/null'],capture_output=True)
+subprocess.run(['find'],capture_output=True)
+subprocess.run(['find >>fo'],capture_output=True)
+subprocess.run(['find >!fo'],capture_output=True)
+subprocess.run(['find','.','/dev/null'],capture_output=True)
+subprocess.run(['cal'],capture_output=True)
+subprocess.run(['cal 2022'],capture_output=True)
+subprocess.run(['date'],capture_output=True)
+subprocess.run(['date'],stdout='fo',capture_output=True)
+subprocess.run(['date'],stdout='fo')
+subprocess.run(['date'],stdout=PIPE)
+subprocess.run(['date'],text=True,capture_output=True)
+subprocess.run(['cal'],text=True,capture_output=True)
+subprocess.run(['cal 2022'],text=True,capture_output=True)
+subprocess.run(['cal',' 2022'],text=True,capture_output=True)
+subprocess.run(['cal',' 2022'],text=True,stdout=subprocess.STDOUT,capture_output=True)
+subprocess.run(['cal',' 2022'],text=True,stdout=subprocess.STDOUT)
+subprocess.run(['cal',' 2022'],text=True,stdout=subprocess.PIPE)
+subprocess.run(['cal',' 2022'],stdout=subprocess.PIPE)
+subprocess.run(['cal',' 2022'])
+subprocess.run(['cal',' 2022'],capture_output=False)
+subprocess.run(['cal',' 2022'],stdout='/dev/null')
+subprocess.run(['cal',' 2022'],stdout='/dev/null'
+import os
+help(os)
+help(descriptor)
+help(object)
+o=Object()
+o=object()
+o.__name__
+o.__get_attribute('name')
+o.__get_attribute__('name')
+repr(o)
+o.to_string()
+o.tos()
+str(o)
+s='myst'
+s.__name__
+s.__dict__
+d={'d':'dog','e':'elehant'}
+d.__dict__
+class f:
+	self.fs={'f':'fish','g':'giragge'}
+class f:
+	__init__(self):
+class f:
+	def __init__(self):
+	self.fs={'f':'fish','g':'giragge'}
+class f:
+	def __init__(self):
+		self.fs={'f':'fish','g':'giragge'}
+f.__dict__
+class f:
+	def __init__(self):
+		self.fs={'f':'fish','g':'giragge'}
+f.__dict__
+ff=f()
+f.__dict__
+ff--dict__.
+ff__dict__.
+ff__dict__
+ff.__dict__
+import os
+asd=os.uname()
+asd.__dict__
+posix.uname_result.__dict__
+type(asd)
+help(posix.uname_result)
+help(os.posix.uname_result)
+help(os.posix)
+help(os)
+help(builtins.posix.uname_result)
+import builtins
+help(builtins.posix.uname_result)
+help(builtins.os.posix.uname_result)
+help(builtins.os)
+help(os)
+help(builtins.tuple)
+help(type)
+help(print)
+exit
+myd ={'a':'apple','b':'bat'}
+for i in myd:
+	print(i)
+rand()
+random()
+import random
+random()
+import random as r
+r.random()
+fg
+import Randomizer
+import randomizer
+my=Randomizer()
+my=randomizer.Randomizer()
+my()
+print(my.string)
+my()
+print(my.string)
+fg
+import collections.abc as abc
+help(abc)
+a=abc.Iterable()
+a=abc.Iterator()
+abc.Iterator.__abstract_methods__
+abc.Iterator.__abstract_method__
+abc.Iterator.__abstractmethod__
+abc.Iterator.__abstractmethods__
+abc.Sized.__abstractmethods__
+import comments
+help(comments)
+help(func1)
+help(__initi__)
+help(__init__)
+help(comments.__init__)
+help(comments.func1)
+help(comments.func2)
+help(comments)
+help(test.func2)
+help(comments)
+help(test.func1)
+help(func2)
+import comments as c
+c.func1
+help(c.func1)
+help(c.test.func1)
+help(c.test.func2)
+import comments
+help(comments.test.__init__)
+import comments as c
+fg
+import comments as c
+help(c.test.__init__)
+import comments as c
+help(c.test.__init__)
+import comments as c
+help(c.test.__init__)
+import comments as c
+help(c.test.__init__)
+import comments as cc
+help(cc.test.__init__)
+import comments as cc
+help(cc.test.__init__)
+import subprocess as sp
+help(sp.run)
+sp.run('ls',capture_output=True)
+print(stdout)
+sp.run('ls',stdout=PIPE,capture_output=True)
+sp.run('ls',stdout=sp.PIPE,capture_output=True)
+sp.run('ls',stdout=sp.PIPE)
+import asyncio
+t1=asyncio.create_task(asyncio.sleep(9))
+l=asyncio.get_running_loop()
+async def go():
+	l=asyncio.get_running_loop()
+asyncio.run(go())
+async def go():
+	l=asyncio.get_running_loop()
+	t1=asyncio.create_task(asyncio.sleep(9))
+	return await t1
+asyncio.run(go())
+async def go():
+	l=asyncio.get_running_loop()
+	t1=asyncio.create_task(asyncio.sleep(9))
+	print(type(t1))
+	return await t1
+asyncio.run(go())
+help(asyncio.Task)
+import asyncio as a
+help(a)
+import os
+os.system('ls')
+import os
+os.system('ls')
+import os
+os.system('afkjl')
+os.system('bash')
+os.system('exit 1')
+help(runtime)
+import sys
+help(sys)
+import asyncio
+async def cor():
+	pass
+cor.__name__
+cor.__cr_origin
+cor.cr_origin
+cor.cr_frame
+cor.cr_running
+async def cor():
+	await asyncio.sleep(1)
+cor.cr_running
+async def cor():
+	await asyncio.sleep(111)
+asyncio.run(cor())
+async def cor():
+	await asyncio.sleep(3)
+	print(cor.cr_running)
+asyncio.run(cor())
+@coroutine
+async def cor():
+	await asyncio.sleep(3)
+	print(cor.cr_running)
+@coro
+async def cor():
+	await asyncio.sleep(3)
+	print(cor.cr_running)
+@types.coroutine
+async def cor():
+	await asyncio.sleep(3)
+	print(cor.cr_running)
+import types
+@types.coroutine
+async def cor():
+	await asyncio.sleep(3)
+	print(cor.cr_running)
+asyncio.run(cor())
+import asyncio as a
+i=a.create_server()
+help(server)
+help(loo)
+help(loop)
+6.3//3
+import asyncio as a
+a.gettime()
+abs(-8)
+fg
+import asyncio as a
+import sys
+help(sys)
+import os
+help(os.system)
+import mycp2
+help(mycp2)
+help(eval)
+help(exec)
+help(eval)
+eval(9-1)
+eval('9-1')
+eval('next(iter("asb"))')
+eval('z=next(iter("asb"))')
+exec('z=next(iter("asb"))')
+exec('print(next(iter("asb")))')
+eval('print(next(iter("asb")))')
+a=fileinput.input()
+import fileinput as fi
+a=fi.input()
+a
+D
+a = input('somthin')
+aassdd
+a
+while True:
+	print(len(input('___: '))
+asdf
+while True:
+	print(len(input('___: '))
+a
+while True:
+	print(len(input('___: '))
+dir()
+	print(len(input('___: '))
+print(len(input('___: '))
+a
+print(len(input('___: '))
+asdflj
+print(len(input('___: ')))
+asdf
+print(len(input('___: ')))
+asdfasdf
+while True:
+	print(len(input('___: ')))
+asdf
+asdfasdf
+flekj
+lfkrje 
+lkjfre 
+import numpy as n
+n.sin(90)
+n.sin(90deg)
+n.sin('90deg')
+n.sin(3.1415)
+sin(3)
+import math
+sin(3)
+sine(3)
+help(math)
+m.sin(3)
+math.sin(3)
+sin(.1415)
+math.sin(.1415)
+math.sin(math.pi/2)
+math.sin(math.radians(	90))
+math.cos(math.radians(	30))
+math.cos(math.radians(	60))
+class C:
+	pass
+c=C()
+c.field='field'
+print(c)
+print(c.field)
+import time as t
+c.tf=t.time()
+print(c.tf)
+c.tf=lambda:t.time()
+print(c.tf)
+print(c.tf())
+class C:
+	pass
+import time as t
+def tf():
+	return t.time()
+c=C()
+c.f=tf()
+print(c.f)
+def tf():
+	return t.time
+print(c.f)
+c.f=tf()
+print(c.f)
+print(c.f())
+raise BaseError
+raise BaseException
+raise BaseException as e
+try:
+	raise BaseException
+except BaseException as e:
+	print(e.__traceback__)
+def rai_be():
+	raise BaseException
+def exc_be():
+	print(e.__traceback())
+try:
+	rai_be()
+except BaseException as e:
+	print(e.__traceback())
+try:
+	rai_be()
+except BaseException as e:
+	print(e.__traceback__())
+try:
+	rai_be()
+except BaseException as e:
+	print(e.__traceback__)
+try:
+	rai_be()
+except BaseException as e:
+	print(e.__traceback__.__dict__)
+help(traceback)
+try:
+	rai_be()
+except BaseException as e:
+	help(e.__traceback__)
+t=traceback()
+import sys
+help(builtins.traceback)
+import builtins
+help(builtins.traceback)
+import traceback
+try:
+	rai_be()
+except BaseException as e:
+	print(e.__traceback__)
+tb =None
+try:
+	rai_be()
+except BaseException as e:
+	tb=e.__traceback__
+help(tb)
+dir(tb)
+tb.tb_frame
+str(tb)
+tb.print_exception
+tb.print_exception()
+tb.print_tb()
+tb.print_tb
+traceback.print_tb(tb)
+traceback.print_stack(tb)
+traceback.print_stack()
+traceback.extract_stack()
+traceback.format_exception_only()
+traceback.format_exc()
+raise BaseException('hihfarf')
+traceback.format_exc()
+traceback.print_stack()
+traceback.format_exc()
+import sys as s
+help(s.stdin)
+s.stdin.read()
+single=s.stdin.read()
+single
+help(s.stdin)
+single=s.stdin.read(1)
+single
+import sys as s
+help(s.stdout.write)
+import sys as s
+help(s.stdin.buffer)
+import sys as s
+help(s.stdin.buffer)
+def f(*,*arg):
+	pass
+def f(*,*arg):
+def f(/,*arg):
+def f(pos1,/,*arg):
+	pass
+f('a','b')
+f('a')
+f()
+def f(pos1,/,*arg):
+	pass
+f(aa='a')
+f('a',aa='a')
+def f(pos1,/,**arg):
+	pass
+f('a',aa='a')
+f('a')
+def f(p1=pos1,/,*arg):
+	pass
+def f(p1=None,/,*arg):
+	pass
+f('a',aa='a')
+f('a','a')
+f(/,'a')
+f(*,'a')
+f(None,'a')
+def f(p1=None,/,**arg):
+	pass
+f(None,'a')
+f(None,/,'a')
+f(None,*,'a')
+def f(p1=None,/,p2,**arg):
+	pass
+def f(p1=None,/,p2=None,**arg):
+	pass
+f('a',p2='b')
+f('a',b')
+f(p1='a',b')
+f(p1='a',p2=b')
+f('a',p2=b')
+f('a',/,p2=b')
+f('a',/,p2='b')
+f('a','/',p2='b')
+f('a','b')
+f('a',p2='b')
+def f(p1=None,/,p2=None,*,*args,**argdict):
+def f(p1=None,/,p2=None,*args,**argdict):
+	pass
+f('a',p2='b')
+f('a',p2='b','c')
+f('a',p2='b',*,'c')
+f('a',p2='b',/,'c')
+f('a','b','c')
+import sys as s
+type(s.stdin)
+help(_io.TextIOWrapper)
+import io
+help(io)
+_io.T
+print(io.DEFAULT_BUFFER_SIZE)
+io.DEFAULT_BUFFER_SIZE=1
+sys.stdin.read(2)
+s.stdin.read(2)
+io.DEFAULT_BUFFER_SIZE=0
+s.stdin.read(2)
+a
+s.stdin.read(2)
+s.stdin.read(0)
+)
+help(io.IOBase)
+fg
+import sys as s
+help(s.open)
+import os 
+help(os.open)
+help(os)
+help(os.open)
+help(open)
+import time
+time.sleep(1)
+help(write)
+help(sys.write)
+ help(open)
+help(open)
+help(write)
+help(read)
+help(os.read)
+fd=open('/dev/tty2','r')
+help(fd)
+fd.isatty()
+fd.writeable()
+fd.writable()
+fd.write('hey')
+fd.read(8)
+fd=open('/dev/tty2','w')
+fd.write('hey')
+fd.isatty()
+fd.writable()
+fd.write(9)
+fd.write('asdf')
+fdr=open('/dev/tty2','r')
+fdr.read(8)
+fd.write('asdf')
+fd=open('/dev/tty2','w+a')
+fd=open('/dev/tty2','a')
+fd.write('asdf')
+fd.write('asdfff')
+fd.flush()
+fd.write('asdfff')
+fd.flush()
+fd.write('asdfff')
+fd.flush()
+fdr.read(8)
+fdr.flush()
+import sys
+fdr=open('/dev/tty2','r')
+fdw=open('/dev/tty2,'a')
+fdw=open('/dev/tty2','a')
+fdw.write('hiworld\n')
+fdr.read(4)
+fdr1=open('/dev/tty1','r')
+fdr1.read(1)
+fdr.read(1)
+o=open('blah','w')
+help(o)
+o.readable()
+o.istty()
+o.isatty()
+o.encoding
+o.isatty
+help(class(o))
+help(o.write_through)
+help(o.write_through())
+help(o.mode)
+help(o.mode.__doc__)
+.__doc__
+o.__doc__
+print(o.__doc__)
+print(o.write.__doc__)
+print(o.write().__doc__)
+print(write.__doc__)
+print(write.__doc__)import io
+import io
+help(type(o))
+help(io.TextIOWrapper)
+help(input)
+import sys
+help(sys.stdin)
+help(io.TextIOWrapper)
+help(io.TextIOBase)
+help(builtins.object)
+import builtins
+help(builtins.object)
+help(builtins.str)
+import _string
+help(_string)
+help(_string.formatter_parser)
+help(_string.formatter_parser.__doc__)
+^help^print
+?
+help
+help()
+idle
+_string
+formatter
+formatter_parser
+parser
+help(_string.formatter_field_name_split)
+)
+help(io)
+help(io.RawIOBase)
+help(io.IOBase)
+help(_io._IOBase)
+import _io
+help(_io.TextIOWrapper)
+help(io._TextIOBase)
+help(io.IOBase)
+help(io._IOBase)
+help(IOBase)
+help(*.IOBase)
+help(io.IOBase)
+help(io._io._IOBase)
+l=1,2,3,4
+d={x:10*x+x for x in l}
+d
+isinstance('a',type(str))
+isinstance('a',type('str'))
+isinstance('a',type(''))
+isinstance('a',type)
+isinstance(type('')\,type)
+isinstance(type(''),type)
+isinstance(''.type,type)
+isinstance(''.type(),type)
+help open
+help(open)
+fd=open('/dev/tty2','r')
+help(fd)
+print(fd.__dict__)
+print(fd)
+help(fd)
+det=fd.detach()
+help(det)
+det.buffer_size=1
+help(det)
+r1=det.read(1)
+r1
+det.buffer_size=2
+r1=det.read(1)
+r1
+r1=det.read(1)
+frefre
+r1
+r1=det.read(1)
+r1
+r1=det.read(1)
+r1
+r1=det.read(1)
+r1
+r1=det.read(1)
+r1
+r1=det.read(1)
+r1
+r1=det.read(1)
+r1
+r1=det.read(1)
+r1
+r1=det.read(1)
+r1
+r1=det.read(1)
+r1
+help(det)
+det.peek(0)
+det.peek(1)
+r1=det.read(1)
+det.peek(1)
+r1=det.read(-1)
+r1
+r1=det.read(-1)
+det.peek(1)
+det.peek(-1)
+r1=det.read(-1)
+det.peek(-1)
+det.peek(1)
+r1=det.read(-1)
+det.peek(1)
+def f(): return 1
+f()
+def f(x): return x
+f(8)
+def f(x): return x
+	return 5
+:
+f(9)
+def f(x): return x
+return x+9
+def f(x): return x
+def f(x):
+return x
+def f(x): return x
+type([])
+type(())
+type(lambda:)
+type(lambda x:x)
+type(lambda x:1)
+type(lambda :1)
+type(lambda:1)
+type({})
+type(1,2)
+type((1,2))
+type('1,2')
+type([x for x in (1,2,3))
+type([x for x in (1,2,3)])
+type(type([x for x in (1,2,3)]))
+type(type(type([x for x in (1,2,3)])))
+fd=open('/dev/tty2','w')
+import inspect
+fd.getmembers()
+fd.inspect.getmembers()
+inspect.getmembers(fd)
+fd.__doc__
+print(fd.__doc__)
+print(fd.__src__)
+print(fd.__builtins__)
+print(fd.__annotations__)
+print(fd.__name__)
+print(fd.__qualname__)
+print(fd.__module__)
+import traceback
+traceback.print_tb()
+import sys
+traceback.print_tb(sys.last_traceback)
+import traceback as tb
+tb.print_stack()
+import asyncio
+import asyncio as a
+async def f():
+	a.sleep(9)
+a.run(f())
+l=a.get_running_loop()
+async def f():
+	await a.sleep(9)
+a.run(f())
+async def f():
+l=a.get_running_loop()
+async def f():
+	l=a.get_running_loop()
+	l.all_tasks()
+	await a.sleep(9)
+a.run(f())
+import asyncio
+import asyncio as a
+help(a.gather)
+import sys
+import os
+help(exec)
+import subprocess as s
+s.run('ls')
+print(s.run('ls'))
+print(os.system('ls'))
+help(os.system)
+call('ls')
+os.call('ls')
+s.call('ls')
+s.call('ls',shell=True)
+import subprocess as sp
+sp.run('ls',capture_output=True)
+sp.run('ls ..',capture_output=True)
+sp.run('ls ~',capture_output=True)
+sp.run('ls -L',capture_output=True)
+sp.run('ls','-l',capture_output=True)
+sp.run('ls -l',capture_output=True)
+import sys
+import os
+os.system('ls -l')
+os.system('ls -l')
+sp.run('ls',-l','~',capture_output=True)
+sp.run('ls','-l','~',capture_output=True)
+sp.run(['ls','-l','~'],capture_output=True)
+sp.run(['ls','-l'],capture_output=True)
+import subprocess
+import subprocess as s
+help(s.run)
+stdo=subprocess.run(['ls'],capture_output=True)
+stdo
+fg
+import re
+a=re.split('heyfheihfey','h')
+for line in a:
+	print(f'lines{line}')
+print(a)
+a=re.split('h','heyfheihfey')
+print(a)
+for line in a:
+	print(f'lines{line}')
+import termios
+help(fdo)
+env
+print(__dict__)
+fd=open(sys.argv[1],'w')
+help(fd)
+termios.tcgetattr(fd)
+print(termios.tcgetattr(fd))
+print(r'{termios.tcgetattr(fd)}')
+print(f'{termios.tcgetattr(fd)}')
+tlist=termios.tcgetattr(fd)
+for each in tlist:
+	os.system(f'echo {each}')
+import os
+for each in tlist:
+	os.system(f'echo {each}')
+for each in tlist[-1]:
+	os.system(f'echo {each}')
+ 
+fg
+import re
+re.split('ab','abcabdabeabf')
+re.split('ab','abcabdabeabf')
+fdo=open('/dev/tty2','w')
+fdo.write('h\ni\nj')
+fdo.flsuh()
+fdo.flush()
+help
+help()
+main
+main()
+help(main)
+help(read1)
+help(inter)
+quit()
+help(__main__
+)
+help(__main__)
+d=dir()
+for each in d:
+	print(each)
+__name__
+help(__main__)
+help('__main__')
+help('__doc__')
+help('__spec__')q
+dir()
+import contextvars as c
+cc=c.copycontext()
+cc=c.copy_context()
+cc
+str(cc)
+cc.getmembers()
+import inspect as i
+i.getmembers(cc)
+for each in i.getmembers(cc):
+	print(each)
+import selectors as s
+s.DefaultSelector
+s.EVENT_READ
+s.EVENT_WRITE
+b's.EVENT_WRITE'
+b'{s.EVENT_WRITE}'
+r'{s.EVENT_WRITE}'
+r's.EVENT_WRITE'
+byte(s.EVENT_WRITE)
+bytes(s.EVENT_WRITE)
+bytes(s.EVENT_READ)
+bytes(s.EVENT_READ&&s.EVENT_WRITE)
+bytes(s.EVENT_READ AND s.EVENT_WRITE)
+bytes(s.EVENT_READ and s.EVENT_WRITE)
+fd=open('/dev/tty2','r')
+import inspect
+inspect.getmembers(fd)
+fd.name
+f567
+fg
+help()
+help(__name__)
+fg
+import os
+import inspect
+inspect.getmembers(os.system)
+inspect.getmembers(os)
+os.system('sh')
+os.system('which sh')
+os.system('which which')
+os.system('ls -l /usr/bin')
+os.system('ls /usr/bin')
+os.system('ls /usr/bin>asdfqwerty') 
+os.system('pwd')
+import pipes as p
+import inspect as i
+t=p.Template()
+inspect.getmembers(t)
+inspect.getmethods(t)
+inspect.getm
+inspect.getmembers(t)
+p2=process.Popen('ls')
+p2=subprocess.Popen('ls')
+p
+p2.stdin
+p2.stdin='hey'
+p2=subprocess.Popen('ls')
+p2.stdin
+p2.communicate()
+p2.communicate(stdin='hey')
+i.getmembers(p2)
+import inspect as i
+i.getmembers(p2)
+i.getmembers(p2.commnicate)
+i.getmembers(p2.communicate)
+p2=subprocess.Popen('bc -l')
+p2=subprocess.Popen('date')
+p2=subprocess.Popen('bc')
+--4-3+..A222345[
+BBBBAAA[
+3
+4
+p2.communicate()
+p2.stdout
+p2.run()
+p2=subprocess.run('bc')
+p2=subprocess.run('bc&')
+p2=subprocess.run('bc &')
+p2=subprocess.run(['bc','&'])
+subprocess.run(['bc'])
+import subprocess as s
+s.call('ls -l')
+s.call(['ls', '-l'])
+ import subprocess
+import subprocess
+help(subprocess)
+fd=open('ab','w')
+fd.fileno()
+import select as s
+s.select([3],[3],None)
+s.select([3],[3],[None])
+s.select([3],[3],[3])
+fd.write(b'b')
+fd.write('b')
+s.select([3],[3],[3])
+fd.re
+fdf=open('ab','r')
+fdf.fileno()
+s.select([3,4],[3,4],[3,4])
+fdr.read(1)
+fdf.read(1)
+s.select([3,4],[3,4],[3,4])
+fdf.line_buffering=True
+fdf=open('ab','r',line_buffering=True)
+fdr=open('ab','r')
+fdr=open('ab','r',buffering=1)
+fdf=open('ab','r',buffering=1)
+fd.write('b')
+fdf.write('b')
+fdr=open('ab','w',buffering=1)
+fdf=open('ab','w',buffering=1)
+fdf.write('b')
+fdr.write('b')
+fdr.write('c')
+fdf.write('d')
+fdf=open('ab','w',buffering=1)
+fdr=open('ab','w',buffering=1)
+fdf.write('d')
+fdf.write('e')
+fdf.write('f')
+fdr.write('g')
+fdr.write('h')
+fdr.write('i')
+fdr=open('ab','w',buffering=1)
+fdf=open('ab','w',buffering=1)
+fdr.write('i')
+fd = open('ab','r')
+fd = open('ab','w')
+help(fd)
+fd.encoding
+int('2')
+int('s')
+int(Integer('s'))
+int(Integer('s'))fr
+import inspect as i
+i.getmembers(httpd)
+for each in i.getmembers(httpd):
+	print(each)
+httpd.get_request()
+for each in i.getmembers(httpd):
+	print(each+'\t\t\t')
+for each in i.getmembers(httpd):
+	print(str(each)+'\t\t\t')
+for each in i.getmembers(httpd):
+	print(str(each)+'\t\t\t',end='')
+o=open('/dev/tty1','w')
+o.write(b'hey')
+o.write('hey')
+o.flush()
+d={'f':'fab'}
+d.insert('d','dog')
+import inspect as i
+i.getmembers(d)
+help(d.update())
+help(d.update)
+d.['d']='dog'
+d['d']='dog'
+d
+import json
+json.JSONDecoder.decode({"a":"ape"})
+json.JSONDecoder.decode(s={"a":"ape"})
+json.JSONDecoder().decode(s={"a":"ape"})
+json.JSONDecoder().decode({"a":"ape"})
+json.JSONDecoder().decode('{"a":"ape"}')
+d='d'
+:'dog}
+d={'d', 'dog'}
+d.add('e','egg')
+d.add(['e','egg'])
+help(d.add)
+d={'d': 'dog'}
+d.add('e','egg')
+help(d.update)
+a
+b
+fg
+a
+b
+c
+d
+e
+e=deepc(d)
+nc=NullC()
+nc.__dict__
+for each in nc.__dict__:
+	print('hey')
+fg
+help(Deep)
+help(deepc)
+help(open)
+help(format)
+import copy as c
+class A:
+	def __init__(self):
+		self.d={}
+a=A()
+c.copy(a)
+a
+a.d
+b=c.copy(a)
+b.d
+aa=A()
+aaa=A()
+a.d=aa
+b=c.copy(a)
+a.d
+b.d
+a.__dict__
+b.__dict__
+b.d=c.copy(a.d)
+b.__dict__
+fg
+a={'a':'ape'}
+a.update({'b':'bed'})
+a
+for each in a:
+	print(each)
+a
+b
+c
+d
+aa
+aa=deepc(a)
+aa
+aa.__dict__
+a.__dict__
+b
+b.__dict__
+bb=deepc(b)
+bb
+bb.__dict__
+aa=bc_copy(a)
+aa
+a
+aa.__dict__
+bb=bc_copy(b)
+bb.__dict__
+b.__dict__
+bbb=copy.copy(b)
+bbb
+b
+bb
+bbb.__data__[data]
+bbb.__dict__['data']
+bb.__dict__['data']
+b.__dict__['data']
+aa=bc_dcopy(a)
+aa.__dict__
+a.__dict__
+bb=bc_dcopy(b)
+bb.__dict__
+b.__dict__
+bb=bc_dcopy(b)
+bb.__dict__
+b.__dict__
+bb=bc_dcopy(b)
+bb.__dict__
+b.__dict__
+bb.__dict__=copy.copy(b.__dict__)
+bb.__dict__
+h=Hashable()
+help(h)
+set(h,'hashable')
+set({h,'hashable'})
+set({h,h})
+h.__hash__()
+i=Hashable()
+i.__hash__()
+set({h,h})
+i=Hashable()
+j=Hashable()
+set(i,j)
+set({i,j})
+i.hash()
+hash(i)
+i.__hash__()
+k=Hashable()
+y=set({i,j})
+j=k
+y
+k
+yy=frozenset({i,j})
+i=k
+yy
+i
+j
+k
+i=Hashable()
+j=Hashable()
+k=Hashable()
+i
+j
+k
+y=set({i,j})
+y=frozenset({i,j})
+y
+i=k
+y
+yy=set({Hashable(),Hashable()})
+yy=set({Hashable(),j)
+yy=set({Hashable(),j})
+yy
+j=k
+yy
+k
+j
+q=Hashable()
+r=Hashable()
+sq={q}
+sr={r}
+sq
+sr
+r=Hashable()
+sr
+sr={r}
+sr
+r=Hashable()
+r in sr
+i--j
+i==j
+i
+j
+k
+r
+a=Int(3)
+b=Int(4)
+a==b
+hash(a)
+c=Int(4)
+b==c
+b>c
+a=Int(2)
+b=Int(3)
+hash(b)
+hash(9)
+class N:
+	pass
+n=N()
+hash(n)
+m=N()
+hash(m)
+s={}
+t={}
+u={s,t}
+s
+t
+hash(s)
+s=set()
+t=set()
+u
+u={s,t}
+t=frozenset()
+s=frozenset()
+u={s,t}
+a=(1,2)
+a[0]=3
+fg
+q={}
+a='aaa'
+b='bb'
+q.update((a,b))
+q.update({a,b})
+q.update(dict(a,b))
+q.update(dict((a,b)))
+help(q.update)
+q.update([a,b])
+q.update([(a,b)])
+help()
+quit()
+help(a)
+dir()
+dir(a)
+a.dd
+a.dd_inv
+fg
+a.ins_k_v('d':'donk')
+a.ins_k_v('d','donk')
+a
+a.__str__()
+a.__repr__
+a.__repr__()
+help( DoubD)
+rqrsa.sel_k('d')
+rqrsa.ins_k_v('placehol')
+rqrsa.dd.ins_k_v('placehol')
+a=Chi()
+a=Child()
+a.sumfun()
+a.sumfun2()
+help(rqrsa)
+rqrsa.ins_k_v('f','fig')
+fg
+Dfg
+print(c.data)
+dir
+dir()
+print(__name__)
+fg
+help(super())
+help(super)
+import app
+c
+dir
+dir()
+import app
+help(app)
+fg
+d={'a':'ape'}
+d.update([('b','')])
+d
+d.update([('','c')])
+d
+[x if x==True else y]
+x=False 
+y=9
+[x if x==True else y]
+x=True 
+[x if x==True else y]
+[1,2,3,4]
+a=[1,2,3,4]
+repr(a)
+str(a)
+print(a)
+for each in a:
+	print(each)
+for each in a:
+	print(each,end='')
+a=[1,2,3,4]
+print(a*)
+print(*a)
+d
+__main__.__dict__
+self.__dict__
+__dict__
+dir()
+d.__dict__
+dir()
+d.__dict__
+print(d)
+repr(d)
+str(d)
+d
+str(d)
+d
+fg
+d
+fg
+d
+fg
+d
+fg
+d
+dir(d)
+d
+repr(d)
+d.myrepr()
+d
+dir(d)
+for each in dir(d):
+	print(each)
+for each in dir(d):
+	print(d.each)
+	print(hasattr(d,each)0
+	print(hasattr(d,each))
+for each in dir(d):
+	print(hasattr(d,each))
+for each in dir(d):
+	print(getattr(d,each))
+hash(d)
+import inspect as i
+i.getmembers(d)
+[x +'\n' for x in i.getmembers(d)]
+[x +('\n',) for x in i.getmembers(d)]
+[str(x) +'\n' for x in i.getmembers(d)]
+print(*[x for x in i.getmembers(d)])
+print(*[str(x)+'\n' for x in i.getmembers(d)])A
+for each in dir(d):
+	print(getattr(d,each))AAA
+ id(dd)
+id(dd)
+id(d)
+d
+byte(id(d))
+bytes(id(d))
+int(0x7f10103b8ac0)
+hex(id(d))
+d
+dir(d)
+d.sl_repr()
+d.myrepr()
+dir(d()
+dir(d)
+dd
+d
+d.next_key('val_next')
+d
+d.myrepr()
+d.update('val_committed')
+d.update1('val_committed')
+d.myrepr()
+d.next_key('next_key')
+d
+d.myrepr()
+d.update1('val_committed')
+d.myrepr()
+d.next_key('next_key')
+d.update1('val_committed')
+d.myrepr()
+d.next_key('next_key')
+d.update1('val_committed')
+d.myrepr()
+elf.nextkey: key1; {}
+{'key1': 'val1'}
+>>>elf.nextkey: key1; {}
+{'key1': 'val1'}
+q
+d.next_key('next_key')
+d.myrepr()
+d.update1('val_committed')
+d.myrepr()
+>>> d.next_key('next_key')
+>>> d.myrepr()
+"<class '__main__.PartD'> at 0x7fb4b0188af0: {'dd': {'key1': 'val1'}, 'nextkey': 'next_key', 'keyset': True}"
+>>> d.update1('val_committed')
+>>> d.myrepr()
+"<class '__main__.PartD'> at 0x7fb4b0188af0: {'dd': {'key1': 'val1', 'next_key': 'val_committed'}, 'nextkey': 'next_key', 'keyset': False}"
+    d=PartD()
+    print(*d.sl_repr())
+    d.next_key('key1')
+    print(*d.sl_repr())
+    d.update1('val1')
+d=PartD()
+d.next_key('key1')
+d.update1('val1')
+d
+d.__dict__
+dir
+dir()
+c
+c.__dict__
+fg
+c
+c.__dict__
+c.super
+c.pd
+c.super.pd
+fg
+o=O()
+o.childbr([O(),O(),O()])
+barf(o)
+o=O()
+o.childbr([O(),O(),O()])
+barf(o)
+o=O()
+o.childbr([O(),O(),O()])
+barf(o)
+o.childbr([O(),O(),O(),o])
+barf(o)
+o.childbr([O(),O(),O(),[O()(,O()(,O(),o])
+o.childbr([O(),O(),O(),[O()(,O()(,O(),o]])
+o.childbr([O(),O(),O(),[O(),O(),O(),o]])
+barf(o)
+type({})
+type(int)
+type(int) instance(type)
+type(int).instance(type)
+type(int).isinstance(type)
+isinstance(type)
+isinstance(type(int),type)
+isprim({})
+isprim(5)
+isprim(9)
+isprim('9')
+isprim(True)
+isinstance(9,type(int))
+isinstance(type(int),9)
+isinstance([9],type([]))
+isinstance({9},type({}))
+isinstance({9},type(set()))
+type(float)
+isprim(8)
+isprim('8')
+isprim({})
+o=O()
+o.childbr([O(),O(),O(),[O(),O(),O(),o]])
+barf(o)
+o=O()
+o.childbr([O(),O(),O(),[O(),O(),O(),o]])
+barf(o)
+help(setattr)
+o=O()
+p=O()
+o.setattr('myat',p)
+setattr(o,'myat',p)
+barf(o
+)
+barf(o)
+setattr(p,'myat',O())
+setattr(p,'my2ndat',O())
+barf(o)
+setattr(p,'my3rdat','3rd')
+barf(o)
+fg
+p=O()
+setattr(p,'my3rdat','3rd')
+barf(o)
+barf(p)
+setattr(p,'my1','first')
+barf(p)
+setattr(p,'child1',O())
+barf(p)
+ch2=O()
+setattr(ch2,'sumfield','sumval')
+setattr(p,'child2',ch2)
+barf(p)
+p=O()
+setattr(p,'child1',O())
+ch2=O()
+setattr(ch2,'sumfield','sumval')
+setattr(p,'child2',ch2)
+barf(p)
+p=O()
+setattr(p,'child1',O())
+ch2=O()
+setattr(ch2,'sumfield','sumval')
+setattr(p,'child2',ch2)
+barf(p)
+id('child')
+p=O()
+setattr(ch2,'sumfield','sumval')
+ch2=O()
+setattr(ch2,'sumfield','sumval')
+setattr(p,'child2',ch2)
+barf(p)
+fg
+p=O()
+setattr(ch2,'sumfield','sumval')
+ch2=O()
+setattr(ch2,'sumfield','sumval')
+setattr(p,'child2',ch2)
+setattr(ch2,'intar',[1,2,3])
+setattr(ch2,'char','abc')
+barf(p)
+'abc'==['a','b','c']
+p=O()
+ch2=O()
+setattr(ch2,'sumfield','sumval')
+setattr(ch2,'char','abc')
+setattr(ch2,'intar',[1,2,3])
+setattr(p,'child2',ch2)
+barf(p)
+p=O()
+ch2=O()
+setattr(ch2,'sumfield','sumval')
+setattr(ch2,'intar',[1,2,3])
+setattr(ch2,'char','abc')
+setattr(p,'child2',ch2)
+barf(p)
+setattr(ch2,'intar',[1,O(),3])
+barf(p)
+ch3=O()
+setattr(ch3,'intar',[1,O(),3])
+setattr(ch2,'third',[1,ch3,3])
+barf(p)
+p=O()
+ch2=O()
+ch3=O()
+setattr(ch3,'intar',[1,O(),3])
+setattr(ch2,'third',[1,ch3,3])
+setattr(p,'child2',ch2)
+barf(p)
+p=O()
+ch2=O()
+ch3=O()
+setattr(ch3,'intar',[1,O(),3])
+setattr(ch2,'third',[1,ch3,3])
+setattr(p,'child2',ch2)
+barf(p)
+a=[1,10,100]
+b=[a,99,a]
+barf(a)
+fg
+isinstance(iter('abc'),iter)
+isinstance(iter('abc'),type(iter))
+isinstance(iter(['abc']),type(iter))
+iter('abc')
+type(iter)
+i=iter('abc')
+type(i.next())
+type(next(i))
+type(i)
+class O:
+	pass
+o=O()
+class O:
+	pass
+o=O()
+iter(o,o)
+iter([o,o])
+iter({o,o})
+i=iter('abc')
+ppp(i)
+i=iter([1,2,'abc'])
+ppp(i)
+i=iter([1,2,'abc',{'t','f'}])
+ppp(i)
+fg
+isobj(o)
+isobj('a')
+isobj('')
+isobj(['v',''])
+fg
+s={1,2,3}
+s[2]
+help(type)
+import types
+help(types)
+import Barf
+o=O()
+help(Barf)
+o=Barf.O()
+o.__objclass__
+o.__dict__
+import inspect
+inspect.getmembers(o)
+help(o.format)
+help(o.__format__)
+o.__format__
+o.__format__()
+help(o.__new__)
+help(o.__le__)
+help(o.__le__())
+o<o
+o.__le__():
+def o.__le__():
+def o.__le__(self):
+def __le__(self):
+	return True
+help(o.__setattr__)
+type(o.__setattr__)
+type(o.__le__)
+type(o.__init__)
+o.newmem='newmem'
+inspect.getmembers(o)
+o.__dir__
+o.__dir__()
+o.__doc__()
+o.__repr__()
+o.__str__()
+o.__help__()
+o.__sizeof__()
+o.__module__()
+o.__getattribute__()
+o.__getattribute__('newmem')
+help(o.__reduce__)
+help(o.__init__)
+help(type(o))
+O.newclassmem='asdf'
+Barf.O.newclassmem='asdf'
+help(o.__subclasshook__)
+help(issubclass)
+help(Barf.O)
+class B(Barf.O):
+	pass
+issubclass(B,Barf.O)
+dir(B)
+B.__subclasshook__()
+Barf.O.__subclasshook__()
+help(B.__reduce_ex__)
+B.__module__
+o.__module__
+o.__class__
+B.__class__
+B.__dict__
+B.__doc__
+Barf.O.__doc__
+Barf.O.__doc__()
+Barf.O.__name__
+B.__name__
+dir()
+c
+c.__dict__
+import inspect as i
+i.getmembers(c)
+c.__subclasshook()
+c.__subclasshook__()
+c.super()
+super(c)
+help(super)
+c.super().__init__()
+i.getmro(c)
+i.__getmro__(c)
+c.__mro__()
+c.__mro__
+Chi.__mro__
+dir(Par)
+dir(c)
+i.getmembers(c)
+import inspect
+import inspect as i
+i.getmembers(c)
+p
+p=Par()
+i.getmembers(p)
+o=Object()
+Par.__mro__
+i.getmro(p)
+i.getmro(class(p))
+help(type)
+type(help)
+type(help).mro()
+help(super)
+help(new)
+help(__new__)
+c.__new__
+c.__new__()
+ppp(help)
+ppp(O())
+try:
+	iter('abc')
+except BaseException:
+	print('except')
+dir()
+type(o)
+classmethod(def som():
+classmethod(def som():pass)
+classmethod( som():pass)
+classmethod( lambda:1)
+__builtins__
+help(dir)
+dir(o)
+o.__mro__
+o.__mro__()
+mro(o)
+mro(type(o))
+type(o).__mro__
+class P(O):
+	pass
+p=P()
+dir(p)
+o.__setattr__('newat','baseclass_field_val')
+dir(p)
+dir(o)
+o.__dict__
+p.__dict__
+type(p).__mro__
+type(p).__subclasses__()
+type(o).__subclasses__()
+o.__class__
+type(ranger(9))
+type(range(9))
+r=range(9)
+len(r)
+r.__name__
+r.__dir__()
+dir(r)
+help(r)
+class ran(range):
+	pass
+class ran(int):
+	pass
+class ran(iter):
+	pass
+class ran(set):
+	pass
+class ran(tuple):
+	pass
+class ran(type):
+	pass
+class ran(class):
+class ran(object):
+	pass
+help(ran)
+ran.some_class_data='classy!'
+help(ran)
+dir(ran)
+import inspect as i
+i.getmembers(ran)
+id(ran)
+ran.__dict__
+r=ran()
+ran.__dict__
+ran.__module__
+ran.__mo
+class ran(object):
+	def sumf():
+		pass
+ran.__dict__
+help(ran)
+dir(ran)
+t=list
+type(t)
+t=[]
+type(t)
+t=[int]
+type(t)
+t=list[int]
+type(t)
+isprmu(5)
+int|int
+type(int)|type(int)
+byte(type(int))
+hex(type(int))
+lambda: 1
+(lambda: 1)()
+(lambda: x=1)()
+(lambda: x)()
+(lambdax: x)(4)
+(lambda x: x)(4)
+import this
+ 
+from . import *
+import sub
+__name__
+sub.__name__
+import *
+import .
+from . import sub
+from . import import sub
+from sub import sub2
+from sub import *
+from . import sub
+from . import bcdeep
+from bcdeep import *
+help(sub2)
+help(sub)
+bcdeep.sub()
+bcdeep.sub
+__name__
+from bcdeep import *
+dir()
+help(bcdeep)
+help(sub)
+from bcdeep import sub
+help(sub)
+from bcdeep import *
+help(bcdeep.sub)
+from bcdeep import *
+help(bcdeep.sub)
+from bcdeep import sub
+help(bcdeep.sub)
+import bcdeep
+help(bcdeep.sub)
+from bcdeep import *
+help(bcdeep.sub)
+from bcdeep import *
+import bcdeep
+from bcdeep import *
+from bcdeep import sub
+bcdeep.__class__
+from . import sub
+from .bcdeep import sub
+from ..bcdeep import sub
+from bcdeep import sub
+from . import sub
+from .. import sub
+from bcdeep import sub
+from .import sub
+from . import sub
+from . import *
+bcdeep.sub
+from bcdeep import *
+import bcdeep
+from bcdeep import *
+import .
+from . import *
+from bcdeep import *
+from sub import *
+from .sub import *
+exit
+class A:
+	pass
+class B(A):
+	myi=9
+import inspect as i
+i.getmembers(B)
+i.getmembers(A)
+class A:
+	aint=1
+i.getmembers(A)
+i.getmembers(B)
+import Barf
+ppp(i.getmembers(B))
+Barf.ppp(i.getmembers(B))
+import Barf
+Barf.ppp(i.getmembers(B))
+import Barf
+Barf.ppp(i.getmembers(B))
+Barf.ppp(a)
+import inspect as i
+i.getmembers(Barf)
+i.getmembers(O)
+ppp(i.getmembers(O))
+import Barf
+Barf.ppp(a)
+ppp(i.getmembers(O))
+Barf.ppp(i.getmembers(O))
+class A:
+	aint=9
+class B(A):
+	bint=6
+Barf.ppp(i.getmembers(A))
+Barf.ppp(i.getmembers(B))
+a=A()
+b=B()
+Barf.ppp(i.getmembers(b))
+Barf.ppp(i.getmembers(a))
+b__dict__
+b.__dict__
+o=O()
+import inspect as i
+i.getmembers(o)
+ppp(i.getmembers(o))
+o.summem=a
+ppp(i.getmembers(o))
+o.mymeth=lambda:1
+ppp(i.getmembers(o))
+ppp(inspect.getmembers(o))
+class P(O):
+	pass
+p=P()
+ppp(inspect.getmembers(p))
+a='a'
+iter(a)
+a=1
+iter(a)
+o=O()
+inspect.getmembers(o)
+ppp(inspect.getmembers(o))
+o=O()
+inspect.getmembers(o)
+ppp(inspect.getmembers(o))
+o=O()
+ppp(inspect.getmembers(o))
+inspect.getmembers(o)
+ppp(o)
+ppp(i.getmembers(o))
+ppp(inspect.getmembers(o))
+ppp(i.getmembers(o))
+inspect.getmembers(o)
+inspect.getmembers({'1','2'})
+pppt(inspect.getmembers({'1','2'}))
+pppt(i.getmembers(o))
+pppt(inspect.getmembers(o))
+pppt(inspect.getmembers(o))fg
+ppp(inspect.getmembers(o))
+pppit(o)
+pppit(i.getmembers(o))
+pppit(inspect.getmembers(o))
+inspect.getmembers(o)
+help(re.split)
+ppp_recur_str(str(o))
+ppp_recur_str(str(inspect.getmembers(o)))
+ppp_recur_str(str(o))
+ppp_recur_str(str(inspect.getmembers(o)))
+str(inspect.getmembers(o))
+str(inspect.getmembers(o))	
+ppp_recur_str(inspect.getmembers(o))
+re.compile('r')
+rp=re.compile('r')
+rp.search('asdfasdfa')
+print(rp.search('asdfasdfa'))
+print(rp.search('asdfasdfar'))
+rp=re.compile('r')
+rp=re.compile('\}')
+print(rp.search('asdfasdfar'))
+print(rp.search('asdfasdfar}'))
+ppp_recur_str()
+ppp_recur_str(inspect.getmembers(o))
+O.sunfunc() = lambda:1
+o.sunfunc() = lambda:1
+o.sunfunc = lambda:1
+O.sunfunc = lambda:1
+ppp_recur_str(inspect.getmembers(o))
+O.sunfunc9 = lambda:1
+ppp_recur_str(inspect.getmembers(o))
+ppp_recur_str(inspect.getmembers(o.__dict__))
+ppp_recur_str(inspect.getmembers(o.__dict__.__doc__))
+inspect.getsourcelines(o)
+o
+inspect.getsource(o)
+str(inspect.getsource(o))
+inspect.getinnerframes(inspect.currentframe())
+inspect.trace()
+ppp_recur_str(inspect.getmembers(o))
+inspect.getcurrentframe()
+inspect.currentframe()
+ppp_recur_str(inspect.getmembers(o))
+t1=Mythr()
+t1=Mythr(1,lambda:1)
+t1.start
+import time
+time.sleep(1)
+import .bc
+from .bc import *
+from ..bc import *
+from ..bc import app
+from .bc import app
+from .bc import *
+import bc
+import bc.app
+import .bc.app
+from .bc import app
+from .bc import *
+from bc import *
+import bfc
+import bc
+import bcdeep.twot
+bc.__dict__
+inspect.(bc.__dict__)
+inspect.getmembers(bc.__dict__)
+import bc.app
+import b.c
+h=Hh()
+h.__dir__
+h+Hh()
+h=Hh()
+h.__get_attr__('nowd')
+h.__getattribute__('nowd')
+h.__getattribute__('name')
+h.__getattribute__('__dict__)
+h.__getattribute__('__dict__')
+h.__getattribute__('__init__')
+h.__getattribute__('__newd__')
+h.__getattribute__('__new__')
+h.__getattribute__('nowd')
+dir(h)
+h=Hh()
+i=Ii()
+h=Hh()
+h.__init__()
+i=Ii()
+h=Hh()
+i=Ii()
+h=Hh()
+fg
+h=Hh()
+i=Ii()
+h=Hh()
+i=Ii()
+h=Hh()
+i=Ii()
+h=Hh()
+i=Ii()
+h=Hh()
+i=Ii()
+h=Hh()
+i=Ii()
+h=Hh()
+i=Ii()
+h=Hh()f
+h=Hh()
+dir(h)
+h.__init__()
+h=Hh()
+import importlib
+importlib.reload(hier)
+importlib.reload()
+importlib.reload('__main__')
+importlib.reload('hier')
+import hier
+importlib.reload(hier)
+h=Hh()
+importlib.reload(hier)
+importlib.reload('hier')
+h=Hh()
+import hier
+importlib.reload(hier)
+h=Hh()
+h.__doc__
+from hier import __main__
+h.__doc__
+importlib.reload(hier.__main__)
+h.__doc__
+h=Hh()
+importlib.reload(__main__)
+h=Hh()
+h.__doc__
+import hier
+dir(hier)
+from hier import *
+dir(hier)
+hier.Hh()
+from hier import Hh
+import importlib
+importlib.reload(hier)
+::wq
+importlib.reload(hier)
+importlib.reload(hier.__init__)
+importlib.reload(hier.Hh)
+importlib.reload(hier)
+import importlib
+importlib.reload(hier)
+from hier import Hh
+from hier import *
+dir(hier)
+importlib.reload(hier)
+import hier
+importlib.reload(hier)
+import hier
+importlib.reload(hier)
+h=Hh()
+importlib.reload(hier)
+h=Hh()
+from hier import *
+h=Hh()
+h=hier.Hh()
+from hier import *
+importlib.reload(hier)
+from hier import *
+h=hier.Hh()
+i=Ii()
+importlib.reload(hier)
+from hier import *
+i=Ii()
+importlib.reload(hier)
+i=Ii()
+i.supmeth()
+from hier import *
+importlib.reload(hier)
+i.supmeth()
+i.__doc__
+h=Hh()
+h.__doc__
+dir(h)
+print(h.__doc__)
+import hier
+from hier import *
+importlib.reload(hier)
+print(h.__doc__)
+h.__doc__
+h.__init__
+h.summem
+import hier
+from hier import *
+importlib.reload(hier)
+h=Hh()
+h.summem
+import sys
+import os
+import asyncio as
+import asyncio as a
+help(a.to_thread)
+exit
+import subprocess as s
+help(s.call)
+help(main)
+dir
+dir()
+help(read1)
+help(main)
+dir()
+help(main)
+dir()
+help(dir())
+help(iter(dir()))
+int('a')
+int(r'a')
+int(b'a')
+(b'a')
+b'a'
+byte('a')
+bytes('a')
+(byte)('a')
+{0:d}.format('a')
+"{0:d}".format('a')
+"{0:d}".format('1')
+"{0:d}".format(1.1)
+'hey'.format()
+'hey'.format('heyy')
+'hey'.format('d')
+ord('d')
+ord('A')
+help(ord)
+help(builtins.ord)
+help(builtin.ord)
+import builtins
+help(builtins.ord)
+import builtin as b
+import builtins as b
+dir(b)
+dir(ord)
+help(ord)
+help(str)
+help(chr)
+ord('a')
+chr(97)
+3/4
+int(3/4)
+3%4
+sqrt(9)
+import decimal as d
+d.sqrt(9)
+myd=d(9)
+myd=d.Decimal(9)
+myd.sqrt()
+import math as m
+m.sqrt(9)
+m.sqrt(9.1)/3
+m.sqrt(9.1)/3 %1
+m.sqrt(9.1)//3 %1
+import math as m
+range(m.sqrt(10))
+range(m.floor(m.sqrt(10)))
+RainTable.testint(11)
+RainTable.testint(12)
+RainTable.testint(10)
+RainTable.testint(9)
+RainTable.primes
+RainTable.testint(2)
+RainTable.testint(3)
+RainTable.testint(4)
+RainTable.primes
+RainTable.testint(5)
+RainTable.testint(6)
+RainTable.testint(5)
+RainTable.testint(6)
+RainTable.primes
+RainTable.testint(6)
+RainTable.primes
+RainTable.testint(6)
+RainTable.primes
+RainTable.testint(6)
+RainTable.testint(7)
+RainTable.testint(8)
+RainTable.testint(9)
+RainTable.testint(10)
+RainTable.testint(11)
+RainTable.testint(13)
+RainTable.testint(12)
+RainTable.testint(121)
+RainTable.testint(12)
+RainTable.primes
+RainTable.testint(13)
+RainTable.testint(12)
+RainTable.testint(13)
+RainTable.primes
+RainTable.testint(17)
+RainTable.primes
+RainTable.testint(2049)
+RainTable.testint(2047)
+fg
+pop(RainTable.primes)
+RainTable.primes.pop()
+RainTable.primes
+fg
+2^3
+4^3
+2^^3
+2**3
+fg
+import threading as t
+smph=t.Semaphore(999)
+smph.acquire(blocking=False)
+dir(smph)
+smph._value
+smph.release()
+smph._value
+import threading as t
+smph=t.Lock()
+smph.acquire()
+smph.acquire(blocking=False)
+smph.release()
+smph.acquire(blocking=False)
+import threading as t
+t.Thread().start()
+TT=t.Thread()art()
+tt=t.Thread()
+tt.start()
+tt.stop()
+tt.is_alive()
+tt.run()
+class spin:
+	def __init__(self):
+		while True:
+			pass
+ss=spin()
+class spin(threading.Thread):
+	def __init__(self):
+		while True:
+			pass
+class spin(t.Thread):
+	def __init__(self):
+		while True:
+			pass
+ss=spin()
+slowadd(8,9)
+p(9)
+a(1,2)
+await a(1,2)
+p('a')
+fg
+d=[0]
+d
+(d)
+(d)[0]
+r
+rf
+pa
+help(Obj)
+help(ListeninMixin)
+ord('a')
+ord('A')
+arange(9)
+class C:
+	def i(self):
+		print('hi')
+c=C()
+import inspect as ins
+mems=ins.getmembers()
+mems=ins.getmembers(c)
+mems
+mems[-1]
+(mems[-1])[1]
+(mems[-1])[1]()
+exec('dir()')
+exec('dir')
+eval('dir')
+exec(eval('dir'))
+exec('dir')
+exec('help')
+def ret1():
+	return 1
+exec('ret1')
+exec('ret1()')
+exec(ret1)
+exec(ret1())
+exec('ret1')
+re1()
+ret1()
+exec('ret1()')
+help(exec)
+exec('one=ret1')
+one
+exec('one=ret1()')
+one
+exec('oin2=ret1()')
+dir
+dir()
+5|2
+True | False
+0|0
+1|9
+3 or 4
+3|4
+1 or 9
+9 or True
+True or 9
+9|True
+True|9
+val := 4<9
+if val := 4<9 : return 4
+	return 4
+if val := 4<9 :
+	return 4
+if val := 4<9 :
+	print ('hey')
+if val := 4<9 :
+	print (val)
+e=exec('5')
+e
+exec('dir()')
+e=exec('dir()')
+e=exec('3+4')
+e
+exec('3+4')
+eval(3+4)
+eval('3+4')
+eval('dir()')
+def d():
+	return 'd'
+def d(din):
+	return din
+eval(d('higuy')
+)
+eval(d('higuy'))
+eval(d(print('higuy')))
+higuy='hhiigg'
+eval(d('higuy'))
+eval(d('8-2'))
+help(eval)
+eval(d(str(8-2)))
+import insp.C
+import insp
+dir()
+c=C()
+eval(c.inc())
+eval('c.inc()')
+c.d
+eval('c.inc()')
+c.d
+class C:
+	pass
+dir(C)
+dir(__getattribute__)
+dir(C.__getattribute__)yyy
+ord('0')
+ord('Z')
+ord('z')
+ord('A')
+ord('B')
+ord('9')
+chr(58)
+ord('a')
+class f:
+	def fun(self):
+		return True
+myf=f()
+myf.f
+myf.fun
+myf.funz
+ enumerate(range(9))
+enumerate(range(9))
+[x for x in enumerate(range(9))]
+enumerate(range(9))
+[x for x in enumerate(range(9))]
+dir
+dir()
+dir(f)
+import inspect as i
+i.getmembers()
+i.getmembers(f)
+i.getmembers(myf)
+i.getmembers(myf)[:-1]
+(i.getmembers(myf))[:-1]
+(i.getmembers(myf))[:-2]
+(i.getmembers(myf))[-1]
+(i.getmembers(myf))[-1]()
+(i.getmembers(myf))[-1][1]()
+eaf 
+fdi=open('/dev/tty1','r')
+li=fdi.readline()
+l;s
+ls
+li
+li=fdi.readline()
+li
+li=fdi.read1()
+li=fdi.read()
+li=fdi.readline()ubcafuu
+b
+zyaa
+ua
+y
+z
+a
+b
+cu
+z
+zuy
+y
+z
+inp
+li
+li.trim()
+li.strip()
+wxcxxka
+uduv
+def stararg(*args):
+	for each in args:
+		print(each)
+stararg(1,2,3)
+stararg(1,2,3!)
+stararg('1,2,3!')
+stararg(('1,2,3!'),'asdf')
+def unp(fun,*args):
+	return fun(args)
+unp(print,(1,2,34))
+grep
+import re
+re.grep()
+import re
+re.compile('c')
+arr=['aa','bb','cc']
+re.match(arr)
+for line in arr:
+	if re.match(line):
+		print(line)
+for line in arr:
+	if re.match(str(line)):
+		print(line)
+help(re.match)
+for line in arr:
+	if match(re.compile('c'),str(line)):
+		print(line)
+for line in arr:
+	if re.match(re.compile('c'),str(line)):
+		print(line)
+f
+import pdb
+import singleton
+pdb.run(singleton)
+pdb.run(singleton.main())
+import pdb
+import singleton
+pdb.run(singleton.main())
+pdb.run(singleton.main)
+pdb.run('singleton.main()')
+continue
+import singleton
+import pdb
+pdb.run('singleton.main()')
+continue
+import pdb
+import singleton
+pdb.run('singleton.main()')
+co
+continue
+import pdb
+import singleton
+pdb.run('singleton.main()')
+continue
+import singleton
+import pdb
+pdb.run('singleton.main()')
+conti
+continue
+import singleton
+import pdb
+pdb.run('singleton.main()')
+continue
+cont
+continue
+import pdb
+import singleton
+pdb.run('singleton.main()')
+continue
+fg
+import readline as r
+help(r)
+r.add_history('higuy')
+higuy
+help(r)
+r.write_history_file('higuy')

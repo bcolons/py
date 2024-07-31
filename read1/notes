@@ -1,0 +1,17 @@
+we have various implementations to read a single char from a tty (or file)
+
+1. blocking in a while loop (char-echo.py fdx.read(1)/fdy.write(one_ch);fdy.flush() between two tty's)
+2. two threads via: thread1=threading.Thread(target=myfunc,args=(.,.,.));thread1.start() ( read1-threaded.py )
+3. an otherwise blocking read(1) call wrapped in a thread and await'd via: await asyncio.to_thread; asyncio.run(main()) (read1-asy-to-thread.py) (bc_ is this really awaiting or fork-and-carry-on? or, can you return a value from a thread?)
+4. asyncio.await awaitable non_coro_read/write() ...this still blocks and  misses read's ...all we are really doing is playing nice with other await'ed coro's (if any) as I/O still blocks event loop
+5. loop = asyncio.getrunningloop(), loop.
+6. for coro in asyncio.as_completed([iter(awaitable_fun1,awaitable_fun2)]): first=await coro # simultaneous await iterator of coro's, return each value in order of completion
+7.  L = asyncio.gather(coro1(args),coro2(args)); asyncio.run(main()) # same as 6. but array of return vals
+8. task1/2 = asyncio.create_task(coro1/2(args)); await task1;await task2; # lower level/older concurrency via Tasks, higher level is via as_completed/gather
+9. 
+
+
+
+
+
+

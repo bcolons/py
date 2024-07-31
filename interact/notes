@@ -1,0 +1,3 @@
+os.system('ls -l') # oldest way
+subprocess.run(['ls',' -l'], capture_output=True) #newer way, requires arr w/ separate args for shell args; returns a subprocess.CompletedProcess
+subprocess.call(['ls','-l']) # older way also returns process return val..,shell=True)

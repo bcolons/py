@@ -1,0 +1,74 @@
+asyncio has a 1. high and a 2. low level way to run 'friendly' or asynchronous code.
+
+note that creating a task or coro is different than scheduling it for execution/implied execution/returning a value
+'await' is common to several different underlying implementations / behvaiour
+syntax supports await coro/task/future (ie. the 'awaitables')
+
+fifo and lifo data structures might also describe concurrency where normal single-thread in-order is fifo execution (IP, PS, SP no fork/lwp/await-async.sleep/Thread()/etc...
+
+shortest-in-first-out is event loop asyncio await/Task()/..+callback() (specifically async.as_completed)
+the event loop executes kind of mainframe/batch-style stepwise executing blocks of code between same-level await's (bc_ need to learn this better...seems like there is multiple event loops in the case where an await is recursively called under another await...maybe this is an abuse of the 
+
+    1. asyncio.run(coro1()) # top-level await where coro1 might await other coro's 
+     or: await coro1() # most straightforward syntax to schedule and run code to run asynchronously (sequentially or concurrently depending on context)
+    2. task_1 (_2) = asyncio.create_task(some_coro_1() or _2/()) 
+        # both scheduled to run soon; await task_1;await task_2  # both run async-concurrently via Task magic! low_lev ver of 3. or 4
+    3. L = asyncio.gather(coro1(),coro2()...) # scheduled-and-run, L will have retvals, coro's run async-concurrently
+    4. for coro in asyncio.as_completed([coro1(),coro2(), ..]): # scheduled-and-run async-concurrently 
+        first_retval=  await coro
+    5. await asyncio.to_thread(non_coro1()) # run concurrent thread for a non_coro... bc_ no retval from thread
+    6. thread_1 (_2)=threading.Thread(target=non_coro_1(_2),args=(arg1,arg2,arg3)), thread1(_2).start() #  same as 5. but w/o async/await syntax
+    7. await loop.run_in_executor(ProcessPool|ThreadPool -Executor,non_coro(),*args) # low level v. of asyncio.*for_shell_progs/subprocess.*_exec/Popen
+
+in psuedocode type 1.
+
+async def coro1():
+    stuff()
+    await asyncio.sleep(1) # or 0 to simply let scheduler decide the soonest slot
+
+gather() and as_completed)() are two 'asynchronous-concurrent' ways to run code where the order of execution of each coro/await-clause/task call and return is not important 
+
+async def coro3(..)
+    stuff()
+    await asyncio.sleep(0) # or other async call or coro
+
+async def coro4(..)
+    stuff()
+    await asyncio.sleep(0)
+
+async def main()
+    for coro in asyncio.as_completed([coro3(),coro4()]):
+        first_done= await coro # delivers coro's in completed-order
+    # or
+    Retval= await asyncio.gather(coro3(), coro4()) # list of ret vals 
+
+----
+wait() provides more control over a group of coro's/tasks with return_when= ALL_COMPLETED, fIRST_EXCEPTION, FIRST_COMPLETED
+
+----
+async-seq has two types of coro's:
+    those that await-once and execution continue when the await finishes/completes
+    those that 'await-erate' through multiple cycles
+
+return await xyz() only makes sense for await-once coro's
+
+async-concur is obviously going to often use a seq of yield-style await-once 
+note: infinite coro's like while True: print await asyncio.time(1); may run alongside finite coro's
+----
+for task in async.all_tasks(): print(task);asyncio.sleep(.5) gives a nice view into the event loop, coro and task names, callbacks and 'pending' and (dprctd) 'finished' status shown
+
+a useful way to trace asynch coro's/tasks is to examine and document the await milestones in the code: awaiting network , fs, interprocess io is easy to say, where the actual premptible points actually are requires understanding of the underlying activity.
+[--deprecated] task1.all_tasks() returns finished tasks as well--useful for seeing how things work
+
+Also (from docs):
+inspect.getcoroutinestate(coroutine) ---  Get current state of a coroutine object. 
+
+Above function is intended to be used with coroutine objects created by async def funcx(), but will accept any coroutine-like object that has cr_running and cr_frame attributes.  
+
+Possible states are:
+CORO_CREATED: Waiting to start execution.
+CORO_RUNNING: Currently being executed by the interpreter.
+CORO_SUSPENDED: Currently suspended at an await expression.
+CORO_CLOSED: Execution has completed.
+----
+multi-threaded template would be useful ...character based interactive prompt to start/service client threads while main server program runs.

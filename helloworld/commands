@@ -1,0 +1,43 @@
+print(os.getpwd()) #print `pwd`
+
+import sys
+dir(sys) # show names in a module
+
+import builtins
+dir(builtins) # show builtin functions and variables
+
+import json
+json.dumps(...) # show json repr of an object
+
+types: 
+primitives
+tuple ('..',..') or '..','..'
+dictionary {'..':'..','..':'..'}
+set {'..','..'}
+list ['..','..']
+
+primitives: 
+x,y =5,6
+x,y =(5,6)
+
+tuples: 
+x = 5,6
+x = (5,6)
+
+dictionaries:
+z = {"key1":"val1", "beach":("suncream","towel","spade")}
+
+sets:
+z = {"key1", "beach"}
+z = {"key1", "beach"}
+
+lists:
+
+=[1,2,5,4]
+#illegal x,y=[1,2,5,4]
+
+callable:
+functions, methods, lambda's
+iterable:
+
+

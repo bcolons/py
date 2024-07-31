@@ -1,0 +1,35 @@
+unix cmd format ideas
+
+examples:
+
+cmd (ls, date, pwd)
+prior-cmd|cmd (wc, cat) interactive or pipe input or file redirect (cat </dev/tty1)
+cmd filename(s) (file filename)
+cmd dir(s) (ls a*, cd dir) 
+cmd -opt-flags args filenames (ls -l a*)
+prior-cmd|cmd -opt-flags args or cmd -opt-flags args <filename
+
+all above allow stdout redirect via sbsq | or >
+
+in grammar:
+
+cmd -> cmd || cmd | cmd # almighty pipe glue!
+cmd -> prog || prog > file || prog < file
+prog -> exe || exe args || exe args files || exe files 
+exe -> python script.py || local-path-filename
+
+details:
+
+prog are unit tested must accept stdin ( prefixd with | or suffixd with <)...good design
+
+1. prog that doesnt get input goes into interactive Ctrl-d terminated session (eg. vi - )
+2. prog may accept filename or a list as arg (unlike other args which accept one of each)
+    (eg. in python, def func(arg1, arg2, *files): .. )
+3. prog should be lazy to accomodate infinite output, each result written as line to stdout  
+    (not how typically done)
+4. prog output should be trivial-parseable on of:
+    spaces/strange-token delimited columns (think split() )
+    unique string prefixes (think key:value dict's)
+    json (this isnt very unixey, really only where data is heirarchical)
+5. prog should allow interactive mode (eg. python -i) to see internal data for testing/developing
+

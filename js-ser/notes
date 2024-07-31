@@ -1,0 +1,87 @@
+tree manip with reusable generic functions
+IFCRUD is the overarching feature set, 
+
+I : initialize 
+F : finalize clear free
+C : create insert store write new (generally requires R-search) also re-index column(s)/hash key 
+R : read select load ---requires a search
+U : update modify write store ---requires search (superficially not a primitive func as its: R then C or D although this may not be efficient) also re-index column(s)/hash key
+D : delete remove store(null) ---requires a search 
+
+Initialize(root node of tree) - initialize a root node 
+Finalize(root node of tree) - delete tree and contents
+Create(node) - add/insert/write/store single node
+Read ('all') - bulk read/select/load nodes
+Read (search_node) - search for node then read/select/load
+Update (search_node, updated_node) - search(node),delete(node),create(node)
+Update (search_list, updated_list) - bulk/loop Update(search_node,updated_node)
+Delete(search_node) - search for node update parent node, free child memory 
+
+Derivative properties:
+
+Initialize() should:
+    return addr/ref/ptr to a composite object which now supports primitive R(), C(), D()
+Finalize() should:
+    free any explicitly required resources, delete referenced data and references.
+Read(node_data) should:
+    return False or address/reference/pointer to an optional subsequent Update(inp) Create(inp) Delete(inp)
+Read('all') should:
+    return set of all node data in various format/data_struct/object/file
+Create(node_data) should:
+    update composite object with a new node where a search determined it should be, and, no collision with existing
+Delete('all') should:
+    delete/free/clear/remove all elems and undo resource alloc'd in Initialize() via Finalize()
+Delete(node_data) should:
+    delete/free/clear/remove an elem where a search determined it should be, update parent or any linked-from node(s)
+Update(node_data_old node_data_new) should: # in general not primitive functionality, for TrNod not even a use case (typo-recovery, could easily delete()-add()).
+    Read(node_data)   # however general, might be three silly steps if Update() is fundamentally atomic 
+    Delete(node_data)  # eg. hash_read_insert_update_delete(data,action_flag) all req initial hash and action varies by ins/update/del flag
+    Create(node_data) # a tree has search() instead of hash() and a more complicated switch for modify() --- add_node_under(n), mod_node_at(n), del_node_under(n)
+
+----
+Four main primitive functions/functionalities:
+Multiple values cases are simply single valued cases in a bulk wrapper func.
+No savings or tree locality between elems---alphabetized input doc2spellcheck and/or dictdoc violates this... (either might have a single-traverse option)
+these are real/realistic possibilities....
+    bulk_add(sorted_dictdoc) should be implemented at least, 
+    perhaps bulk_read(sorted_uniq_doc2spellcheck) too?
+
+Search(node_val) returns 
+    (lastmatching_char_plus any suffix,
+        self_for_last_match_TrNod)
+self.Modify(new_suffix,'del'|'add'|'update') 
+Dump_all()
+Delete_all()
+
+TrNod 'add' trace:
+
+1. bed exists 'add' beds:
+search(beds$) returns (ds$, self==TrNod(d) ref with arr containing $
+    'd' ne '$' so we call,
+        self.ins_suff('s$'[1:]) ... ins_suff recurses...  
+            nTrN=TrNod('s')
+            self.arr.append(nTrN)
+            if('s$'[1:0]) #else return
+                ins_suff('s$'[1:])
+                    nTrN=TrNod('$')
+                    self.arr.append(nTrN)
+                        if('$'[1:0]) #else--as here--return ...done
+                
+2. bed and beds exist, 'del' beds: #inefficient double-search but rare enough to ignore fallout
+search(beds$) returns ($, self==TrNod($) #matched char plus suffix (mchar_suff, mnode)
+    delnode=self #save ref for second (parent_node) search
+search(beds) returns (s, self==TrNod(s) with arr containing TrNod($)
+self.modify(delnode,'del') 
+    self.arr.pop(delnode)
+
+
+    
+    
+Invariants:
+Delete non-existing string, null action no error
+Insert existing string, null action no check or error
+Search null string, returns ('$',root_node) "empty string belongs to tree"
+Delete existing string leaves prefix/fragment, sbsq search should return matiching prefix even if doesnt belong to a valid word
+root.Dump_all strings must ignore non-$-terminated paths...not clear how to best traverse tree for this perhaps 'one level down at a time'
+    
+

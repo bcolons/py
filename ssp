@@ -1,0 +1,12 @@
+#!/usr/bin/py
+import re
+import sys
+def ssp(s):
+    r=re.compile('\s+')
+    out=r.subn(' ',s)
+    return out[0]
+inp=True
+while inp:
+    inp=sys.stdin.readline()
+    sys.stdout.write(ssp(inp))
+    sys.stdout.flush()

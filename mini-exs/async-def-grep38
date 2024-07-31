@@ -1,0 +1,161 @@
+/usr/lib/python3.8/asyncio/base_events.py:    async def drain(self):
+/usr/lib/python3.8/asyncio/base_events.py:    async def restore(self):
+/usr/lib/python3.8/asyncio/base_events.py:    async def start_serving(self):
+/usr/lib/python3.8/asyncio/base_events.py:    async def serve_forever(self):
+/usr/lib/python3.8/asyncio/base_events.py:    async def wait_closed(self):
+/usr/lib/python3.8/asyncio/base_events.py:    async def _make_subprocess_transport(self, protocol, args, shell,
+/usr/lib/python3.8/asyncio/base_events.py:    async def shutdown_asyncgens(self):
+/usr/lib/python3.8/asyncio/base_events.py:    async def getaddrinfo(self, host, port, *,
+/usr/lib/python3.8/asyncio/base_events.py:    async def getnameinfo(self, sockaddr, flags=0):
+/usr/lib/python3.8/asyncio/base_events.py:    async def sock_sendfile(self, sock, file, offset=0, count=None,
+/usr/lib/python3.8/asyncio/base_events.py:    async def _sock_sendfile_native(self, sock, file, offset, count):
+/usr/lib/python3.8/asyncio/base_events.py:    async def _sock_sendfile_fallback(self, sock, file, offset, count):
+/usr/lib/python3.8/asyncio/base_events.py:    async def _connect_sock(self, exceptions, addr_info, local_addr_infos=None):
+/usr/lib/python3.8/asyncio/base_events.py:    async def create_connection(
+/usr/lib/python3.8/asyncio/base_events.py:    async def _create_connection_transport(
+/usr/lib/python3.8/asyncio/base_events.py:    async def sendfile(self, transport, file, offset=0, count=None,
+/usr/lib/python3.8/asyncio/base_events.py:    async def _sendfile_native(self, transp, file, offset, count):
+/usr/lib/python3.8/asyncio/base_events.py:    async def _sendfile_fallback(self, transp, file, offset, count):
+/usr/lib/python3.8/asyncio/base_events.py:    async def start_tls(self, transport, protocol, sslcontext, *,
+/usr/lib/python3.8/asyncio/base_events.py:    async def create_datagram_endpoint(self, protocol_factory,
+/usr/lib/python3.8/asyncio/base_events.py:    async def _ensure_resolved(self, address, *,
+/usr/lib/python3.8/asyncio/base_events.py:    async def _create_server_getaddrinfo(self, host, port, family, flags):
+/usr/lib/python3.8/asyncio/base_events.py:    async def create_server(
+/usr/lib/python3.8/asyncio/base_events.py:    async def connect_accepted_socket(
+/usr/lib/python3.8/asyncio/base_events.py:    async def connect_read_pipe(self, protocol_factory, pipe):
+/usr/lib/python3.8/asyncio/base_events.py:    async def connect_write_pipe(self, protocol_factory, pipe):
+/usr/lib/python3.8/asyncio/base_events.py:    async def subprocess_shell(self, protocol_factory, cmd, *,
+/usr/lib/python3.8/asyncio/base_events.py:    async def subprocess_exec(self, protocol_factory, program, *args,
+/usr/lib/python3.8/asyncio/base_subprocess.py:    async def _connect_pipes(self, waiter):
+/usr/lib/python3.8/asyncio/base_subprocess.py:    async def _wait(self):
+/usr/lib/python3.8/asyncio/base_tasks.py:        # case 1: 'async def' coroutines
+/usr/lib/python3.8/asyncio/coroutines.py:    warnings.warn('"@coroutine" decorator is deprecated since Python 3.8, use "async def" instead',
+/usr/lib/python3.8/asyncio/coroutines.py:        # defined with "async def".
+/usr/lib/python3.8/asyncio/events.py:    async def start_serving(self):
+/usr/lib/python3.8/asyncio/events.py:    async def serve_forever(self):
+/usr/lib/python3.8/asyncio/events.py:    async def wait_closed(self):
+/usr/lib/python3.8/asyncio/events.py:    async def __aenter__(self):
+/usr/lib/python3.8/asyncio/events.py:    async def __aexit__(self, *exc):
+/usr/lib/python3.8/asyncio/events.py:    async def shutdown_asyncgens(self):
+/usr/lib/python3.8/asyncio/events.py:    async def getaddrinfo(self, host, port, *,
+/usr/lib/python3.8/asyncio/events.py:    async def getnameinfo(self, sockaddr, flags=0):
+/usr/lib/python3.8/asyncio/events.py:    async def create_connection(
+/usr/lib/python3.8/asyncio/events.py:    async def create_server(
+/usr/lib/python3.8/asyncio/events.py:    async def sendfile(self, transport, file, offset=0, count=None,
+/usr/lib/python3.8/asyncio/events.py:    async def start_tls(self, transport, protocol, sslcontext, *,
+/usr/lib/python3.8/asyncio/events.py:    async def create_unix_connection(
+/usr/lib/python3.8/asyncio/events.py:    async def create_unix_server(
+/usr/lib/python3.8/asyncio/events.py:    async def create_datagram_endpoint(self, protocol_factory,
+/usr/lib/python3.8/asyncio/events.py:    async def connect_read_pipe(self, protocol_factory, pipe):
+/usr/lib/python3.8/asyncio/events.py:    async def connect_write_pipe(self, protocol_factory, pipe):
+/usr/lib/python3.8/asyncio/events.py:    async def subprocess_shell(self, protocol_factory, cmd, *,
+/usr/lib/python3.8/asyncio/events.py:    async def subprocess_exec(self, protocol_factory, *args,
+/usr/lib/python3.8/asyncio/events.py:    async def sock_recv(self, sock, nbytes):
+/usr/lib/python3.8/asyncio/events.py:    async def sock_recv_into(self, sock, buf):
+/usr/lib/python3.8/asyncio/events.py:    async def sock_sendall(self, sock, data):
+/usr/lib/python3.8/asyncio/events.py:    async def sock_connect(self, sock, address):
+/usr/lib/python3.8/asyncio/events.py:    async def sock_accept(self, sock):
+/usr/lib/python3.8/asyncio/events.py:    async def sock_sendfile(self, sock, file, offset=0, count=None,
+/usr/lib/python3.8/asyncio/locks.py:    async def __acquire_ctx(self):
+/usr/lib/python3.8/asyncio/locks.py:    async def __aenter__(self):
+/usr/lib/python3.8/asyncio/locks.py:    async def __aexit__(self, exc_type, exc, tb):
+/usr/lib/python3.8/asyncio/locks.py:    async def acquire(self):
+/usr/lib/python3.8/asyncio/locks.py:    async def wait(self):
+/usr/lib/python3.8/asyncio/locks.py:    async def wait(self):
+/usr/lib/python3.8/asyncio/locks.py:    async def wait_for(self, predicate):
+/usr/lib/python3.8/asyncio/locks.py:    async def acquire(self):
+/usr/lib/python3.8/asyncio/proactor_events.py:    async def sock_recv(self, sock, n):
+/usr/lib/python3.8/asyncio/proactor_events.py:    async def sock_recv_into(self, sock, buf):
+/usr/lib/python3.8/asyncio/proactor_events.py:    async def sock_sendall(self, sock, data):
+/usr/lib/python3.8/asyncio/proactor_events.py:    async def sock_connect(self, sock, address):
+/usr/lib/python3.8/asyncio/proactor_events.py:    async def sock_accept(self, sock):
+/usr/lib/python3.8/asyncio/proactor_events.py:    async def _sock_sendfile_native(self, sock, file, offset, count):
+/usr/lib/python3.8/asyncio/proactor_events.py:    async def _sendfile_native(self, transp, file, offset, count):
+/usr/lib/python3.8/asyncio/queues.py:    async def put(self, item):
+/usr/lib/python3.8/asyncio/queues.py:    async def get(self):
+/usr/lib/python3.8/asyncio/queues.py:    async def join(self):
+/usr/lib/python3.8/asyncio/runners.py:        async def main():
+/usr/lib/python3.8/asyncio/selector_events.py:    async def _accept_connection2(
+/usr/lib/python3.8/asyncio/selector_events.py:    async def sock_recv(self, sock, n):
+/usr/lib/python3.8/asyncio/selector_events.py:    async def sock_recv_into(self, sock, buf):
+/usr/lib/python3.8/asyncio/selector_events.py:    async def sock_sendall(self, sock, data):
+/usr/lib/python3.8/asyncio/selector_events.py:    async def sock_connect(self, sock, address):
+/usr/lib/python3.8/asyncio/selector_events.py:    async def sock_accept(self, sock):
+/usr/lib/python3.8/asyncio/selector_events.py:    async def _sendfile_native(self, transp, file, offset, count):
+/usr/lib/python3.8/asyncio/staggered.py:async def staggered_race(
+/usr/lib/python3.8/asyncio/staggered.py:    async def run_one_coro(
+/usr/lib/python3.8/asyncio/streams.py:async def open_connection(host=None, port=None, *,
+/usr/lib/python3.8/asyncio/streams.py:async def start_server(client_connected_cb, host=None, port=None, *,
+/usr/lib/python3.8/asyncio/streams.py:    async def open_unix_connection(path=None, *,
+/usr/lib/python3.8/asyncio/streams.py:    async def start_unix_server(client_connected_cb, path=None, *,
+/usr/lib/python3.8/asyncio/streams.py:    async def _drain_helper(self):
+/usr/lib/python3.8/asyncio/streams.py:    async def wait_closed(self):
+/usr/lib/python3.8/asyncio/streams.py:    async def drain(self):
+/usr/lib/python3.8/asyncio/streams.py:    async def _wait_for_data(self, func_name):
+/usr/lib/python3.8/asyncio/streams.py:    async def readline(self):
+/usr/lib/python3.8/asyncio/streams.py:    async def readuntil(self, separator=b'\n'):
+/usr/lib/python3.8/asyncio/streams.py:    async def read(self, n=-1):
+/usr/lib/python3.8/asyncio/streams.py:    async def readexactly(self, n):
+/usr/lib/python3.8/asyncio/streams.py:    async def __anext__(self):
+/usr/lib/python3.8/asyncio/subprocess.py:    async def wait(self):
+/usr/lib/python3.8/asyncio/subprocess.py:    async def _feed_stdin(self, input):
+/usr/lib/python3.8/asyncio/subprocess.py:    async def _noop(self):
+/usr/lib/python3.8/asyncio/subprocess.py:    async def _read_stream(self, fd):
+/usr/lib/python3.8/asyncio/subprocess.py:    async def communicate(self, input=None):
+/usr/lib/python3.8/asyncio/subprocess.py:async def create_subprocess_shell(cmd, stdin=None, stdout=None, stderr=None,
+/usr/lib/python3.8/asyncio/subprocess.py:async def create_subprocess_exec(program, *args, stdin=None, stdout=None,
+/usr/lib/python3.8/asyncio/tasks.py:async def wait(fs, *, loop=None, timeout=None, return_when=ALL_COMPLETED):
+/usr/lib/python3.8/asyncio/tasks.py:async def wait_for(fut, timeout, *, loop=None):
+/usr/lib/python3.8/asyncio/tasks.py:async def _wait(fs, timeout, return_when, loop):
+/usr/lib/python3.8/asyncio/tasks.py:async def _cancel_and_wait(fut, loop):
+/usr/lib/python3.8/asyncio/tasks.py:    async def _wait_for_one():
+/usr/lib/python3.8/asyncio/tasks.py:async def sleep(delay, result=None, *, loop=None):
+/usr/lib/python3.8/asyncio/unix_events.py:    async def _make_subprocess_transport(self, protocol, args, shell,
+/usr/lib/python3.8/asyncio/unix_events.py:    async def create_unix_connection(
+/usr/lib/python3.8/asyncio/unix_events.py:    async def create_unix_server(
+/usr/lib/python3.8/asyncio/unix_events.py:    async def _sock_sendfile_native(self, sock, file, offset, count):
+/usr/lib/python3.8/asyncio/windows_events.py:    async def create_pipe_connection(self, protocol_factory, address):
+/usr/lib/python3.8/asyncio/windows_events.py:    async def start_serving_pipe(self, protocol_factory, address):
+/usr/lib/python3.8/asyncio/windows_events.py:    async def _make_subprocess_transport(self, protocol, args, shell,
+/usr/lib/python3.8/asyncio/windows_events.py:        async def accept_coro(future, conn):
+/usr/lib/python3.8/asyncio/windows_events.py:    async def connect_pipe(self, address):
+Binary file /usr/lib/python3.8/asyncio/__pycache__/coroutines.cpython-38.pyc matches
+Binary file /usr/lib/python3.8/asyncio/__pycache__/runners.cpython-38.pyc matches
+/usr/lib/python3.8/contextlib.py:    async def __aenter__(self):
+/usr/lib/python3.8/contextlib.py:    async def __aexit__(self, exc_type, exc_value, traceback):
+/usr/lib/python3.8/contextlib.py:    async def __aenter__(self):
+/usr/lib/python3.8/contextlib.py:    async def __aexit__(self, typ, value, traceback):
+/usr/lib/python3.8/contextlib.py:        async def some_async_generator(<arguments>):
+/usr/lib/python3.8/contextlib.py:        async def _exit_wrapper(exc_type, exc, tb):
+/usr/lib/python3.8/contextlib.py:    async def enter_async_context(self, cm):
+/usr/lib/python3.8/contextlib.py:    async def aclose(self):
+/usr/lib/python3.8/contextlib.py:    async def __aenter__(self):
+/usr/lib/python3.8/contextlib.py:    async def __aexit__(self, *exc_details):
+/usr/lib/python3.8/inspect.py:    Coroutine functions are defined with "async def" syntax.
+/usr/lib/python3.8/inspect.py:    Asynchronous generator functions are defined with "async def"
+/usr/lib/python3.8/pydoc_data/topics.py:          'Functions defined with "async def" syntax are always coroutine\n'
+/usr/lib/python3.8/pydoc_data/topics.py:          '   async def func(param1, param2):\n'
+/usr/lib/python3.8/pydoc_data/topics.py:             'Functions defined with "async def" syntax are always coroutine\n'
+/usr/lib/python3.8/pydoc_data/topics.py:             '   async def func(param1, param2):\n'
+/usr/lib/python3.8/pydoc_data/topics.py:          '      A function or method which is defined using "async def" is\n'
+/usr/lib/python3.8/pydoc_data/topics.py:          '      A function or method which is defined using "async def" and\n'
+Binary file /usr/lib/python3.8/pydoc_data/__pycache__/topics.cpython-38.pyc matches
+/usr/lib/python3.8/types.py:async def _c(): pass
+/usr/lib/python3.8/types.py:async def _ag():
+/usr/lib/python3.8/unittest/async_case.py:    async def asyncSetUp(self):
+/usr/lib/python3.8/unittest/async_case.py:    async def asyncTearDown(self):
+/usr/lib/python3.8/unittest/async_case.py:        # 1. It can be "async def func()" iself
+/usr/lib/python3.8/unittest/async_case.py:        # 2. Class can implement "async def __call__()" method
+/usr/lib/python3.8/unittest/async_case.py:    async def _asyncioLoopRunner(self, fut):
+/usr/lib/python3.8/unittest/mock.py:        async def patched(*args, **keywargs):
+/usr/lib/python3.8/unittest/mock.py:    async def _execute_mock_call(self, /, *args, **kwargs):
+/usr/lib/python3.8/unittest/mock.py:    async def __anext__(self):
+/usr/lib/python3.8/_collections_abc.py:async def _coro(): pass
+/usr/lib/python3.8/_collections_abc.py:async def _ag(): yield
+/usr/lib/python3.8/_collections_abc.py:    async def __anext__(self):
+/usr/lib/python3.8/_collections_abc.py:    async def __anext__(self):
+/usr/lib/python3.8/_collections_abc.py:    async def asend(self, value):
+/usr/lib/python3.8/_collections_abc.py:    async def athrow(self, typ, val=None, tb=None):
+/usr/lib/python3.8/_collections_abc.py:    async def aclose(self):
+Binary file /usr/lib/python3.8/__pycache__/contextlib.cpython-38.pyc matches
+Binary file /usr/lib/python3.8/__pycache__/inspect.cpython-38.pyc matches

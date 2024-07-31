@@ -1,0 +1,31 @@
+class Interndict:
+    '''Arbitrary intern'd dict, supports is/id() op and saves space (and make all of them garbage-uncollectable '''
+    #_dict_arr=[]
+    _dict_arr=set()
+
+    def __id__(cls,self):
+        return 1
+    #def __hash__(s):
+    #    return hash(_dict[key])
+    def __new__(self,**objargs):
+        for each in self._dict_arr: 
+            if each == objargs: # already exists case
+                return each
+        self._dict_arr.append(objargs) # new dict case
+        return objargs
+
+aa=Interndict(temp='mild',sky='cloudy')
+ab=Interndict(course='marathon',dist='26.2')
+ac=Interndict(course='marathon',dist='26.2')
+ad=Interndict(dist='26.2',course=['ny','marathon'])
+#print(aa.__hash__())
+#print(ab.__hash__())
+print(id(aa))
+print(id(ab))
+print(id(ac))
+print(aa==ab)
+print(ab==ac)
+print(aa is ab)
+print(ab is ac)
+print(type(aa))
+
