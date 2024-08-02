@@ -2,11 +2,11 @@
 import re
 import sys
 def ssp(s):
-    r=re.compile('\s+')
-    out=r.subn(' ',s)
+    r=re.compile('\s+') #match 1 or more whitespaces
+    out=r.subn(' ',s) #substitute a single space char
     return out[0]
 inp=True
 while inp:
-    inp=sys.stdin.readline()
+    inp=sys.stdin.readline() #False when EOF read
     sys.stdout.write(ssp(inp))
     sys.stdout.flush()
